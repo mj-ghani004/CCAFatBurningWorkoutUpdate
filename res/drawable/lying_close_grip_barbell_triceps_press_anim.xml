@@ -1,0 +1,5 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/lying_close_grip_triceps_press_to_chin_1" android:duration="500" />
+    <item android:drawable="@drawable/lying_close_grip_triceps_press_to_chin_2" android:duration="500" />
+</animation-list>
