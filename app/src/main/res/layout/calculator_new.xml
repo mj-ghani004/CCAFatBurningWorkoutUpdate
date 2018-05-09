@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<include-->
+    <!--android:id="@+id/toolbar"-->
+    <!--layout="@layout/toolbar"-->
+
+    <!--/>-->
+
+
+    <ImageView
+        android:id="@+id/imageView_calculator_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/fitness_calculator_logo"
+
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editTextCalculator_Name"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView_calculator_logo"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="@dimen/margin_16"
+        >
+
+        <EditText
+            android:id="@+id/editTextCalc_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:hint="@string/name"
+
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textViewCalculator_height"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCalculator_Name"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="@dimen/margin_8"
+        android:text="My Height is" />
+
+    <Spinner
+        android:id="@+id/spinnerCalculator_HeightFeet"
+
+        android:layout_width="@dimen/margin_64"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/editTextCalculator_Name"
+        android:layout_marginLeft="64dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="@dimen/margin_16"
+
+
+        android:layout_toEndOf="@id/textViewCalculator_height"
+        android:layout_toRightOf="@id/textViewCalculator_height"
+        android:paddingLeft="@dimen/margin_8"
+        android:paddingRight="@dimen/margin_8"/>
+
+    <Spinner
+        android:id="@+id/spinnerCalculator_HeightInch"
+
+        android:layout_width="@dimen/margin_64"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/editTextCalculator_Name"
+        android:layout_marginTop="@dimen/margin_16"
+
+        android:layout_toEndOf="@id/textViewCalculator_height"
+        android:layout_toRightOf="@id/spinnerCalculator_HeightFeet"
+
+        android:paddingLeft="@dimen/margin_8"
+        android:paddingRight="8dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewCalculator_genderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCalculator_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="@dimen/margin_8"
+        android:text="@string/gender" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCalculator_height"
+        android:layout_gravity="center"
+
+
+        android:layout_marginLeft="@dimen/margin_32"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_toEndOf="@id/textViewCalculator_genderText"
+        android:layout_toRightOf="@id/textViewCalculator_genderText"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/maleRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/label_male" />
+
+        <RadioButton
+            android:id="@+id/femaleRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/label_female" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCalculator_genderText"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+
+
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="@dimen/margin_8"
+        android:text="@string/label_age" />
+
+    <EditText
+        android:id="@+id/editText_Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCalculator_genderText"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_32"
+
+        android:layout_marginRight="@dimen/margin_8"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_toEndOf="@id/ageText"
+        android:layout_toRightOf="@id/ageText"
+        android:inputType="number"
+        android:maxLength="3"
+        android:padding="@dimen/margin_8"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageText"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_32"
+        android:padding="@dimen/margin_8"
+        android:text="@string/label_weight"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_Age"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_32"
+        android:layout_marginRight="@dimen/margin_8"
+
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_toEndOf="@id/ageText"
+        android:layout_toRightOf="@id/ageText"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_Age"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_toRightOf="@id/editText_weight"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/KG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:onClick="onWeightClicked"
+            android:text="@string/label_kg" />
+
+        <RadioButton
+            android:id="@+id/LBS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onWeightClicked"
+            android:text="@string/label_lbs" />
+    </RadioGroup>
+
+    <Button
+
+        android:id="@+id/btnCalculator_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_weight"
+        android:layout_margin="@dimen/margin_32"
+        android:background="@drawable/submit_button"
+
+        android:text="@string/label_submit"
+
+        android:textColor="@android:color/white"
+
+        />
+
+
+</RelativeLayout>

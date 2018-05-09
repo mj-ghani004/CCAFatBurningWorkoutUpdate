@@ -50,7 +50,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/TextView08"
+                    android:id="@+id/textViewResult_nameValue"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -89,7 +89,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/gender"
+                    android:id="@+id/textViewResult_genderValue"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -129,7 +129,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/weight"
+                    android:id="@+id/textViewResult_weightValue"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -141,7 +141,7 @@
                     android:textSize="20sp" />
                 
                 <TextView
-                    android:id="@+id/weightUnit"
+                    android:id="@+id/textViewResult_weightUnit"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -181,7 +181,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/height"
+                    android:id="@+id/textViewResult_heightFeet"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -193,7 +193,7 @@
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/heightUnit"
+                    android:id="@+id/textViewResult_heightInch"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -233,7 +233,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/resultAge"
+                    android:id="@+id/textViewResult_ageValue"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -273,7 +273,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/BMI"
+                    android:id="@+id/textViewResult_bmiValue"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -313,7 +313,7 @@
                     android:textColor="@android:color/white" />
 
                 <TextView
-                    android:id="@+id/BMR"
+                    android:id="@+id/textViewResult_bmrValue"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

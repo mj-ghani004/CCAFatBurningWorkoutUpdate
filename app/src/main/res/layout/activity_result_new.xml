@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/textViewResult_nameLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_nameValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_toRightOf="@id/textViewResult_nameLabel"
+
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Jalal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+
+        />
+
+    <View
+        android:id="@+id/result_nameSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_nameLabel"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textViewResult_genderLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_nameSeparator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/label_gender"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_genderValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_nameSeparator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="@dimen/margin_8"
+
+        android:layout_toEndOf="@id/textViewResult_genderLabel"
+        android:layout_toRightOf="@id/textViewResult_genderLabel"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Male"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/resultGender_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_genderLabel"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textViewResult_weightLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultGender_separator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/label_weight"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_weightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultGender_separator"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="@dimen/margin_4"
+
+
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_toEndOf="@id/textViewResult_genderLabel"
+        android:layout_toRightOf="@id/textViewResult_genderLabel"
+        android:fontFamily="sans-serif-light"
+        android:text="68"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_weightUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultGender_separator"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_toRightOf="@id/textViewResult_weightValue"
+
+
+        android:fontFamily="sans-serif-light"
+        android:text="kg"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+
+        />
+
+    <View
+        android:id="@+id/result_weightSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_weightLabel"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textViewResult_heightLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_weightSeparator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/label_height"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_heightFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_weightSeparator"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="153dp"
+        android:layout_marginRight="@dimen/margin_4"
+
+
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_toEndOf="@id/textViewResult_heightLabel"
+        android:layout_toRightOf="@id/textViewResult_heightLabel"
+        android:fontFamily="sans-serif-light"
+        android:text="5 fts"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_heightInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_weightSeparator"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_toEndOf="@id/textViewResult_heightFeet"
+
+
+        android:layout_toRightOf="@id/textViewResult_heightFeet"
+        android:fontFamily="sans-serif-light"
+        android:text="6 Inches"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/result_heightSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_heightLabel"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textViewResult_ageLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_heightSeparator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/label_age"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_ageValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_heightSeparator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="@dimen/margin_8"
+
+        android:layout_toEndOf="@id/textViewResult_genderLabel"
+        android:layout_toRightOf="@id/textViewResult_ageLabel"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="22"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/resultAge_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_ageLabel"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textViewResult_bmiLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResult_ageLabel"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/label_bmi"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_bmiValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultAge_separator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="@dimen/margin_8"
+
+        android:layout_toEndOf="@id/textViewResult_genderLabel"
+        android:layout_toRightOf="@id/textViewResult_bmiLabel"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="24.2345"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/resultBmi_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_bmiLabel"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textViewResult_bmrLabel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResult_bmiLabel"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+
+        android:layout_marginTop="@dimen/margin_4"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="4dp"
+        android:text="@string/label_bmr"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/textViewResult_bmrValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultBmi_separator"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="@dimen/margin_8"
+
+        android:layout_toEndOf="@id/textViewResult_genderLabel"
+        android:layout_toRightOf="@id/textViewResult_bmrLabel"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="28.2345"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/resultBmr_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewResult_bmrLabel"
+        android:background="@android:color/darker_gray" />
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/cardView_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_8"
+        android:layout_below="@id/resultBmr_separator"
+        android:layout_margin="@dimen/margin_8">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:fontFamily="sans-serif-light"
+
+                android:text="Google.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <LinearLayout
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/exercise_calculator_menu_btn" />
+
+        <ImageButton
+            android:id="@+id/train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@null"
+            android:src="@drawable/train_calculator_menu_btn" />
+
+    </LinearLayout>
+
+</RelativeLayout>

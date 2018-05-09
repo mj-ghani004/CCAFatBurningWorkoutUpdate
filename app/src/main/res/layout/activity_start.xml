@@ -3,15 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="10dp"
+
+    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <ImageView
 
+        android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:src="@drawable/bodybuilding"
-        android:scaleType="fitCenter"
+        android:scaleType="centerInside"
+
         />
 	<com.google.android.gms.ads.AdView
         android:id="@+id/adView"
@@ -24,16 +27,7 @@
 
 
 
-    <!--<ImageView-->
-        <!--android:id="@+id/imageView1"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/imageView2"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="30dp"-->
-        <!--android:src="@drawable/train_menu_btn"-->
 
-        <!--/>-->
 
     <android.support.v7.widget.AppCompatButton
 
@@ -42,11 +36,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
         android:layout_marginTop="30dp"
-        android:text="Let's Trrain"
+        android:text="Let's Train"
         android:background="@drawable/standard_buttons"
         android:fontFamily="sans-serif-light"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
 
 
         android:gravity="center"
@@ -67,15 +62,7 @@
         <!--android:src="@drawable/train_menu_btn"-->
 
 
-    <!--<ImageButton-->
-        <!--android:id="@+id/calculator"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/imageView1"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:background="@null"-->
-        <!--android:src="@drawable/calculator_menu_btn" />-->
+
 
 
     <android.support.v7.widget.AppCompatButton
@@ -90,6 +77,8 @@
         android:fontFamily="sans-serif-light"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+
 
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -130,6 +119,8 @@
         android:fontFamily="sans-serif-light"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+
 
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -169,6 +160,8 @@
         android:fontFamily="sans-serif-light"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+
 
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
