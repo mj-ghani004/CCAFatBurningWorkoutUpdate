@@ -35,7 +35,12 @@ public class ResultActivity extends AppCompatActivity {
         mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle("Fitness Result");
-        getSupportActionBar().setTitle("Fitness Resultde");
+
+        // For Back Arrow
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
 //		adView = (AdView)this.findViewById(R.id.adView);
 //		AdRequest adRequest = new AdRequest.Builder().addTestDevice("39D2CA637D78D46DABA54D4AB9F15E29").build();
 //		adView.loadAd(adRequest);
@@ -155,6 +160,12 @@ public class ResultActivity extends AppCompatActivity {
         Intent intent = new Intent(getBaseContext(), CalculatorActivity.class);
         finish();
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
 }

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -20,6 +21,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.dx.dxloadingbutton.lib.LoadingButton;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
@@ -109,7 +111,7 @@ public class CalculatorActivity extends Activity {
         final RadioButton lb = findViewById(R.id.LBS);
         final RadioButton kg = findViewById(R.id.KG);
 
-        Button calcDietImgBtn = findViewById(R.id.btnCalculator_submit);
+        final LoadingButton calcDietImgBtn = findViewById(R.id.btnCalculator_submit);
 
         weightText.setText(mass);
 
@@ -192,6 +194,8 @@ public class CalculatorActivity extends Activity {
 
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
+
+                calcDietImgBtn.startLoading();
                 String weightStr = weightText.getText().toString();
                 String ageStr = ageText.getText().toString();
                 if (weightStr.length() == 0 || ageStr.length() == 0) {
@@ -292,7 +296,7 @@ public class CalculatorActivity extends Activity {
                         out = "Comments: Obese. You must improve your eating habits. Eat a variety of foods, especially pasta, rice, wholemeal bread, and other whole-grain foods. Reduce your fat-intake. You should also eat lots of fruits and vegetables. Try to do at least 30 minutes of physical activity a day on most days of the week.";
                     }
 
-                    Intent intent = new Intent(CalculatorActivity.this,
+                    final Intent intent = new Intent(CalculatorActivity.this,
                             ResultActivity.class);
                     Bundle b = new Bundle();
 
@@ -334,8 +338,15 @@ public class CalculatorActivity extends Activity {
                     b.putString("comments", out);
                     intent.putExtras(b);
 
-                    finish();
-                    startActivity(intent);
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        public void run() {
+
+                            calcDietImgBtn.loadingSuccessful();
+                            startActivity(intent);
+                        }
+                    }, 3000);
+
 
                 }
             }

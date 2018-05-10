@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#ca0714</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="calculatorbg">#e2e2e2</color>
+    <color name="food_bg">#ffeede</color>
+
+    
+
 </resources>

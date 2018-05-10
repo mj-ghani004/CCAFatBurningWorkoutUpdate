@@ -1,15 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/dd6812452eca884c9145a3da931a4b93/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.StevenDXC:DxLoadingButton:2.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/DxLoadingButton-2.0.aar/77451e5c323498ca0045b60d57f4ae41/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7173c3428b97d8ad610201d45414367c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/0e72c413aa51d3ecdba075f423d0ac24/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:customtabs:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/dad7495e5633060ef38f0b257f23cd3b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/01bd782f9e8089141cb893234205edb4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3ab6318f11b20da598855223be15c5b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/886b95216a130b48de04534b3a574acf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64258c2282e9a10eb24b2e429edc56f6/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/ca833c64fd8347f275599a2705e22618/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/4dbd6a0050fa0ea4598632be00ad5420/AndroidManifest.xml:2:1-9:12
@@ -17,21 +20,19 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/gss-ma
 MERGED from [com.android.support:support-v4:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/a3a35381a04534707411dd3fb15e980a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/409dacae4116cba257ebd2fe4e3e5d55/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bcb0330683acd7eff1364e829144f8b6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3ab6318f11b20da598855223be15c5b6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e7432ba19c216fe297475dac3f2fd5ca/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c7f874650d9c8bb491af92e95d1f1c2d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4526fa448a1bd0ca73df587fbc881048/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/886b95216a130b48de04534b3a574acf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/232664c24614f24f73b1320295a385dd/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/47df5db8d49b29befe5fba08afbba011/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/59d6ec855dbb5f16d6ef59e8368760a9/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b409692c44adb1491d681c7443392710/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1de6a25db166d6f4066a64076f75d014/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/484eb7419d7a62129c69567177fb7d40/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b409692c44adb1491d681c7443392710/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/621bacc2276d2bc32b191e1a5aa1ba5b/AndroidManifest.xml:17:1-22:12
-INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-83:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1de6a25db166d6f4066a64076f75d014/AndroidManifest.xml:17:1-22:12
+INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:2:1-89:12
 	package
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml
@@ -87,7 +88,9 @@ ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/A
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:21:22-69
 application
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:23:5-81:19
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:23:5-87:19
+MERGED from [com.github.StevenDXC:DxLoadingButton:2.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/DxLoadingButton-2.0.aar/77451e5c323498ca0045b60d57f4ae41/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.StevenDXC:DxLoadingButton:2.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/DxLoadingButton-2.0.aar/77451e5c323498ca0045b60d57f4ae41/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/01bd782f9e8089141cb893234205edb4/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/01bd782f9e8089141cb893234205edb4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64258c2282e9a10eb24b2e429edc56f6/AndroidManifest.xml:22:5-20
@@ -100,6 +103,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/gss-ma
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/cbcdf0caad2fa0f8e0be2f48da23b932/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/59d6ec855dbb5f16d6ef59e8368760a9/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/59d6ec855dbb5f16d6ef59e8368760a9/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from [com.github.StevenDXC:DxLoadingButton:2.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/DxLoadingButton-2.0.aar/77451e5c323498ca0045b60d57f4ae41/AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:26:9-41
 	android:icon
@@ -129,7 +134,7 @@ ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/A
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:36:27-74
 activity#com.cca.fat.burn.workout.MainActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:39:9-43:84
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:39:9-43:75
 	android:screenOrientation
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:42:13-49
 	android:label
@@ -139,7 +144,7 @@ ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/A
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:40:13-41
 activity#com.cca.fat.burn.workout.ListActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:44:9-48:84
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:44:9-48:75
 	android:screenOrientation
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:47:13-49
 	android:label
@@ -149,7 +154,7 @@ ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/A
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:45:13-41
 activity#com.cca.fat.burn.workout.DescriptionActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:49:9-53:89
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:49:9-53:80
 	android:screenOrientation
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:52:13-49
 	android:label
@@ -159,7 +164,7 @@ ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/A
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:50:13-48
 activity#com.cca.fat.burn.workout.CalculatorActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:54:9-58:59
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:54:9-58:50
 	android:screenOrientation
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:57:13-49
 	android:label
@@ -169,17 +174,17 @@ ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/A
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:55:13-47
 activity#com.cca.fat.burn.workout.FoodActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:59:9-63:89
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:59:9-63:50
 	android:screenOrientation
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:62:13-49
 	android:label
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:61:13-45
 	android:theme
-		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:63:13-77
+		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:63:13-47
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:60:13-41
 activity#com.cca.fat.burn.workout.ResultActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:64:9-68:49
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:64:9-68:50
 	android:screenOrientation
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:67:13-49
 	android:label
@@ -209,17 +214,27 @@ MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/gss-ma
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:75:13-65
 activity#com.cca.fat.burn.workout.LoginActivity
-ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:78:9-80:69
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:78:9-80:60
 	android:label
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:80:13-57
 	android:name
 		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:79:13-42
+activity#com.cca.fat.burn.workout.FoodDescription
+ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:83:9-86:50
+	android:screenOrientation
+		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:85:13-49
+	android:theme
+		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:86:13-47
+	android:name
+		ADDED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml:84:13-44
 uses-sdk
 INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml
 INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/dd6812452eca884c9145a3da931a4b93/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/dd6812452eca884c9145a3da931a4b93/AndroidManifest.xml:20:5-44
+MERGED from [com.github.StevenDXC:DxLoadingButton:2.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/DxLoadingButton-2.0.aar/77451e5c323498ca0045b60d57f4ae41/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.StevenDXC:DxLoadingButton:2.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/DxLoadingButton-2.0.aar/77451e5c323498ca0045b60d57f4ae41/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7173c3428b97d8ad610201d45414367c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7173c3428b97d8ad610201d45414367c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/AndroidManifest.xml:20:5-44
@@ -230,6 +245,10 @@ MERGED from [com.android.support:customtabs:27.1.1] /Users/gss-mac/.gradle/cache
 MERGED from [com.android.support:customtabs:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/dad7495e5633060ef38f0b257f23cd3b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/01bd782f9e8089141cb893234205edb4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/01bd782f9e8089141cb893234205edb4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3ab6318f11b20da598855223be15c5b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3ab6318f11b20da598855223be15c5b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/886b95216a130b48de04534b3a574acf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/886b95216a130b48de04534b3a574acf/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64258c2282e9a10eb24b2e429edc56f6/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64258c2282e9a10eb24b2e429edc56f6/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/ca833c64fd8347f275599a2705e22618/AndroidManifest.xml:20:5-44
@@ -244,30 +263,26 @@ MERGED from [com.android.support:support-fragment:27.1.1] /Users/gss-mac/.gradle
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/409dacae4116cba257ebd2fe4e3e5d55/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bcb0330683acd7eff1364e829144f8b6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bcb0330683acd7eff1364e829144f8b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3ab6318f11b20da598855223be15c5b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3ab6318f11b20da598855223be15c5b6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e7432ba19c216fe297475dac3f2fd5ca/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e7432ba19c216fe297475dac3f2fd5ca/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c7f874650d9c8bb491af92e95d1f1c2d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c7f874650d9c8bb491af92e95d1f1c2d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4526fa448a1bd0ca73df587fbc881048/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4526fa448a1bd0ca73df587fbc881048/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/886b95216a130b48de04534b3a574acf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/886b95216a130b48de04534b3a574acf/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/232664c24614f24f73b1320295a385dd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/232664c24614f24f73b1320295a385dd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/47df5db8d49b29befe5fba08afbba011/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/47df5db8d49b29befe5fba08afbba011/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/59d6ec855dbb5f16d6ef59e8368760a9/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/59d6ec855dbb5f16d6ef59e8368760a9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b409692c44adb1491d681c7443392710/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b409692c44adb1491d681c7443392710/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1de6a25db166d6f4066a64076f75d014/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1de6a25db166d6f4066a64076f75d014/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/484eb7419d7a62129c69567177fb7d40/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/484eb7419d7a62129c69567177fb7d40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b409692c44adb1491d681c7443392710/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b409692c44adb1491d681c7443392710/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/621bacc2276d2bc32b191e1a5aa1ba5b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/621bacc2276d2bc32b191e1a5aa1ba5b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1de6a25db166d6f4066a64076f75d014/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gss-mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1de6a25db166d6f4066a64076f75d014/AndroidManifest.xml:20:5-44
 INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml
 INJECTED from /Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/calculatorbg"
+    >
 
     <!--<include-->
     <!--android:id="@+id/toolbar"-->
@@ -242,18 +246,18 @@
             android:text="@string/label_lbs" />
     </RadioGroup>
 
-    <Button
+    <com.dx.dxloadingbutton.lib.LoadingButton
 
         android:id="@+id/btnCalculator_submit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/editText_weight"
         android:layout_margin="@dimen/margin_32"
-        android:background="@drawable/submit_button"
 
-        android:text="@string/label_submit"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lb_btnColor="@color/colorPrimary"
 
-        android:textColor="@android:color/white"
+        app:lb_btnText="@string/label_submit"
 
         />
 
