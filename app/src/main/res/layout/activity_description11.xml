@@ -3,8 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    tools:context=".MainActivity" >
+
+    tools:context=".MainActivity">
+
+    <!--<include-->
+
+        <!--android:id="@+id/toolbar"-->
+        <!--layout="@layout/toolbar"-->
+
+        <!--/>-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="@drawable/descbg"
+        />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
@@ -12,57 +26,65 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7241082100261031/9859298101" />
+        ads:adUnitId="ca-app-pub-7241082100261031/9859298101"
+        android:layout_marginTop="@dimen/margin_8"/>
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:alpha="0.8"
-        android:src="@drawable/bg_small" />
+        android:src="@drawable/bg_small"
+        android:scaleType="fitXY"
+        android:layout_below="@id/adView"
+        android:layout_marginTop="130dp"
+
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_marginRight="@dimen/margin_8"/>
 
     <FrameLayout
         android:id="@+id/topHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp" >
+        android:layout_marginTop="55dp"
+
+        >
 
         <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/bar" />
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar"
+        android:visibility="gone"/>
 
         <TextView
-            android:id="@+id/descHeading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="TextView"
-            android:textColor="@android:color/white"
-            android:textSize="15sp" />
+        android:id="@+id/descHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+            android:visibility="gone"/>
 
     </FrameLayout>
 
     <FrameLayout
+
         android:id="@+id/innerAnim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp" >
-
+        android:layout_below="@id/adView"
+        >
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="5dp"
-            android:src="@drawable/anim_bg" />
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/anim_bg"
+            />
 
         <ImageView
             android:id="@+id/imageView"
@@ -80,26 +102,25 @@
         android:layout_below="@+id/innerAnim"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp" >
+        android:layout_marginRight="15dp">
 
         <LinearLayout
             android:id="@+id/LinearLayout1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/heading"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textColor="#FFFFFF"
                 android:gravity="center"
+                android:textColor="#FFFFFF"
                 android:textSize="22sp" />
 
-            
-            
+
             <WebView
                 android:id="@+id/description"
                 android:layout_width="wrap_content"
@@ -107,7 +128,6 @@
                 android:layout_gravity="center"
                 android:layout_weight="0.74"
                 android:gravity="center" />
-        
 
 
         </LinearLayout>

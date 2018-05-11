@@ -180,7 +180,7 @@
         android:inputType="number"
         android:maxLength="3"
         android:padding="@dimen/margin_8"
-        android:textSize="22sp" />
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 
     <TextView
@@ -208,6 +208,9 @@
         android:layout_marginEnd="@dimen/margin_8"
         android:layout_marginLeft="@dimen/margin_32"
         android:layout_marginRight="@dimen/margin_8"
+        android:gravity="start"
+
+
 
         android:layout_marginStart="@dimen/margin_16"
         android:layout_marginTop="@dimen/margin_16"
@@ -216,7 +219,7 @@
         android:inputType="number"
         android:maxLength="3"
         android:textColor="@android:color/black"
-        android:textSize="25sp" />
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -255,7 +258,7 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:lb_btnColor="@color/colorPrimary"
+        app:lb_btnColor="@color/colorPrimaryDark"
 
         app:lb_btnText="@string/label_submit"
 

@@ -50,7 +50,7 @@
             android:name=".DescriptionActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".CalculatorActivity"
             android:label="@string/app_name"
@@ -78,11 +78,12 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-
-
         <activity
             android:name=".FoodDescription"
             android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ExerciseList"
             android:theme="@style/NoActionBar" />
     </application>
 
