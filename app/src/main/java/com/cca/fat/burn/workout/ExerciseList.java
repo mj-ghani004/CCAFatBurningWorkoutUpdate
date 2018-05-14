@@ -29,7 +29,7 @@ public class ExerciseList extends AppCompatActivity {
     RecyclerView.LayoutManager mLayoutManager;
 
     private SharedPreferences pref;
-    private String mExerciseName;
+    private String mExerciseType;
     private utility mUtility;
 
     @Override
@@ -40,21 +40,21 @@ public class ExerciseList extends AppCompatActivity {
 
 
         pref = getSharedPreferences(PREFS_PRIVATE, Context.MODE_PRIVATE);
-        mExerciseName = pref.getString("exercise", "");
+        mExerciseType = pref.getString("exercise", "");
 
 
         mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
 
-        getSupportActionBar().setTitle(mExerciseName);
+        getSupportActionBar().setTitle(mExerciseType);
 
         // For Back Arrow
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
 
-        arrayList = populateArray(mExerciseName, this);
+        arrayList = populateArray(mExerciseType, this);
 
 
         mRecyclerView = findViewById(R.id.recyclerView_food);
@@ -73,30 +73,38 @@ public class ExerciseList extends AppCompatActivity {
 
             case Constants.CHEST:
 
+                pref.edit().putInt("main", 1).apply();
                 return mUtility.getDataForChest(context);
 
             case Constants.BICEPS:
 
+                pref.edit().putInt("main", 2).apply();
                 return mUtility.getDataForBiceps(context);
 
             case Constants.SHOULDER:
 
+                pref.edit().putInt("main", 3).apply();
                 return mUtility.getDataForShoulders(context);
+
+            case Constants.THIGH:
+
+                pref.edit().putInt("main", 4).apply();
+                return mUtility.getDataForThigh(context);
 
             case Constants.TRICEPS:
 
+                pref.edit().putInt("main", 5).apply();
                 return mUtility.getDataForTriceps(context);
 
             case Constants.WINGS:
 
+                pref.edit().putInt("main", 6).apply();
                 return mUtility.getDataForWings(context);
 
-            case Constants.THIGH:
-
-                return mUtility.getDataForThigh(context);
 
             case Constants.ABDOMINAL:
 
+                pref.edit().putInt("main", 7).apply();
                 return mUtility.getDataForAbdominal(context);
 
             default:

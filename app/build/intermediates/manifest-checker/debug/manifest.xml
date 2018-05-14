@@ -36,7 +36,7 @@
             android:name="com.cca.fat.burn.workout.StartActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@style/NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,7 +47,7 @@
             android:name="com.cca.fat.burn.workout.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+            android:theme="@style/NoActionBar" />
         <activity
             android:name="com.cca.fat.burn.workout.ListActivity"
             android:label="@string/app_name"
@@ -83,9 +83,6 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.cca.fat.burn.workout.LoginActivity"
-            android:label="@string/title_activity_login" />
         <activity
             android:name="com.cca.fat.burn.workout.FoodDescription"
             android:screenOrientation="portrait"

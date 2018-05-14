@@ -58,7 +58,6 @@ public class StartActivity extends Activity {
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent(getBaseContext(), MainActivity.class);
-                finish();
                 startActivity(intent);
             }
         });
@@ -78,7 +77,6 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), CalculatorActivity.class);
-                finish();
                 startActivity(intent);
             }
         });
@@ -88,7 +86,6 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), FoodActivity.class);
-                finish();
                 startActivity(intent);
             }
         });

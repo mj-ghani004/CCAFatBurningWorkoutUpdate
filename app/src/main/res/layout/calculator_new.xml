@@ -72,10 +72,10 @@
         android:layout_height="wrap_content"
 
         android:layout_below="@+id/editTextCalculator_Name"
-        android:layout_marginLeft="64dp"
 
-        android:layout_marginStart="64dp"
+
         android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_8"
 
 
         android:layout_toEndOf="@id/textViewCalculator_height"
@@ -91,6 +91,7 @@
 
         android:layout_below="@+id/editTextCalculator_Name"
         android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_100"
 
         android:layout_toEndOf="@id/textViewCalculator_height"
         android:layout_toRightOf="@id/spinnerCalculator_HeightFeet"

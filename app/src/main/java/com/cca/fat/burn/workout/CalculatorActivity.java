@@ -83,23 +83,8 @@ public class CalculatorActivity extends Activity {
         final String foots = pref.getString("feets", null);
         final String inches = pref.getString("inchs", null);
 
-//        Typeface font = Typeface.createFromAsset(getAssets(),
-//                "fonts/ufonts.ttf");
-//
-//        textForTypeface = findViewById(R.id.nameText);
-//        textForTypeface.setTypeface(font);
-//
-//        textForTypeface = findViewById(R.id.genderText);
-//        textForTypeface.setTypeface(font);
-//
-//        textForTypeface = findViewById(R.id.ageText);
-//        textForTypeface.setTypeface(font);
-//
-//        textForTypeface = findViewById(R.id.ageText2);
-//        textForTypeface.setTypeface(font);
-//
-//        textForTypeface = findViewById(R.id.weightText);
-//        textForTypeface.setTypeface(font);
+
+
 
         final EditText name = findViewById(R.id.editTextCalc_Name);
         final EditText weightText = findViewById(R.id.editText_weight);
@@ -113,7 +98,13 @@ public class CalculatorActivity extends Activity {
 
         final LoadingButton calcDietImgBtn = findViewById(R.id.btnCalculator_submit);
 
-        weightText.setText(mass);
+        // Setting Empty Strings for Every Use
+
+        name.setText("");
+        ageText.setText("");
+        weightText.setText("");
+
+       // weightText.setText(mass);
 
         if (gender == "Female") {
             f.setChecked(true);
@@ -121,9 +112,9 @@ public class CalculatorActivity extends Activity {
             m.setChecked(true);
         }
 
-        ageText.setText(age);
+       // ageText.setText(age);
 
-        name.setText(name2);
+       // name.setText(name2);
 
         if (w == "lbs") {
             lb.setChecked(true);
@@ -196,6 +187,7 @@ public class CalculatorActivity extends Activity {
                 // TODO Auto-generated method stub
 
                 calcDietImgBtn.startLoading();
+
                 String weightStr = weightText.getText().toString();
                 String ageStr = ageText.getText().toString();
                 if (weightStr.length() == 0 || ageStr.length() == 0) {
@@ -207,6 +199,9 @@ public class CalculatorActivity extends Activity {
                     toast.setGravity(Gravity.CENTER_VERTICAL
                             | Gravity.CENTER_HORIZONTAL, 0, 50);
                     toast.show();
+                    calcDietImgBtn.loadingFailed();
+                    calcDietImgBtn.cancelLoading();
+
                 } else {
                     float bmi = 0;
                     float masslb;

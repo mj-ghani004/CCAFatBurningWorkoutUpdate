@@ -67,7 +67,7 @@ public class DescriptionActivity extends AppCompatActivity {
         pref = getSharedPreferences(PREFS_PRIVATE, Context.MODE_PRIVATE);
         mainVariable = pref.getInt("main", 0);
         int listVariable = pref.getInt("list", 0);
-        mExerciseName = pref.getString("exercise" , "");
+        //mExerciseName = pref.getString("exercise" , "");
 
         String htmlText;
         final String mimeType = "text/html";
@@ -851,7 +851,7 @@ public class DescriptionActivity extends AppCompatActivity {
                         heading.setText("Dead Lift");
                         header.setText("Dead Lift");
 
-                        htmlText = "<style> html { color: #FFFFFF; }</style> <p>Deadlift refers to the lifting of dead (without momentum) weight, such as weights lying on the ground. It is one of the few standard weight training exercises in which all repetitions begin with dead weight. There are two positions one can approach when doing the deadlift, which include the conventional deadlift and sumo-deadlift. In most other lifts there is an eccentric (lowering of the weight) phase followed by the concentric (lifting of the weight) phase. During these exercises, a small amount of energy is stored in the stretched muscles and tendons in the eccentric phase, if the lifter is not flexible beyond the range of motion.</p> <h3>Steps:</h3> <ol> <li>Stand up and grab a dumbbell with each of your hands. <li>Flex your knees and hips in order to lower the dumbbells straight down and raise yourself back up after a short pause. <li>Breathe in when lowering and breathe out when returning to starting position. </ol> ";
+                        htmlText = "<style> html { color: #FFFFFF; }</style> <p>Dead lift refers to the lifting of dead (without momentum) weight, such as weights lying on the ground. It is one of the few standard weight training exercises in which all repetitions begin with dead weight. There are two positions one can approach when doing the deadlift, which include the conventional deadlift and sumo-deadlift. In most other lifts there is an eccentric (lowering of the weight) phase followed by the concentric (lifting of the weight) phase. During these exercises, a small amount of energy is stored in the stretched muscles and tendons in the eccentric phase, if the lifter is not flexible beyond the range of motion.</p> <h3>Steps:</h3> <ol> <li>Stand up and grab a dumbbell with each of your hands. <li>Flex your knees and hips in order to lower the dumbbells straight down and raise yourself back up after a short pause. <li>Breathe in when lowering and breathe out when returning to starting position. </ol> ";
 
                         description.setBackgroundColor(0x00000000);
 

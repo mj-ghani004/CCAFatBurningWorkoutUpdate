@@ -76,6 +76,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/color-v21/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_thigh_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/thigh_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/232664c24614f24f73b1320295a385dd/res/layout/notification_template_media.xml"
     },
@@ -134,6 +138,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_almonds.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/almonds.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_shoulders_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/shoulders_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -268,6 +276,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_chest_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/chest_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
@@ -352,6 +364,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_thigh_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/thigh_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
@@ -386,6 +402,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_decline_crunch_1_icon.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/decline_crunch_1_icon.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_chest.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/chest.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
@@ -460,12 +480,24 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/47df5db8d49b29befe5fba08afbba011/res/layout-v16/notification_template_custom_big.xml"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_abdominal_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/abdominal_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7173c3428b97d8ad610201d45414367c/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_gradient.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/gradient.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_biceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/biceps_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_startbg.jpg.flat",
@@ -566,6 +598,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_shoulders_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/shoulders_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -718,6 +754,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7173c3428b97d8ad610201d45414367c/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_wings_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/wings_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_wing2.png.flat",
@@ -936,6 +976,10 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/leg_raises.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_abdominal_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/abdominal_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_alternate_dumbbell_bicep_curl_2.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/alternate_dumbbell_bicep_curl_2.png"
     },
@@ -970,6 +1014,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_barbell_full_squat.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/barbell_full_squat.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_wings_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/wings_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_activity_food_description.xml.flat",
@@ -1008,8 +1056,16 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/crunches_2.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_shoulders_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/shoulders_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bgstart.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/mipmap-xxxhdpi/bgstart.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_chest.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/chest.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_one_arm_bench_press_2.png.flat",
@@ -1192,12 +1248,12 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/alternate_incline_curl_anim.xml"
     },
     {
-        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_activity_list3.xml.flat",
-        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/layout/activity_list3.xml"
-    },
-    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bar.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/bar.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_activity_list3.xml.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/layout/activity_list3.xml"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1214,6 +1270,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_bodybuilding.jpg.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/bodybuilding.jpg"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_wings_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/wings_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_pulldown_with_squat_with_elbows_flexed_1.png.flat",
@@ -1300,12 +1360,24 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_triceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/triceps_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_thigh_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/thigh_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_crunches_with_legs_on_stability_ball_2.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/crunches_with_legs_on_stability_ball_2.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_chest.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/chest.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_train_menu_btn.xml.flat",
@@ -1338,6 +1410,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/raw_obese.txt.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/raw/obese.txt"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_biceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/biceps_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_squats_4_1.png.flat",
@@ -1462,6 +1538,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_gradient.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/gradient.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1612,6 +1692,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/color/abc_primary_text_material_light.xml"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_abdominal_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/abdominal_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_lying_rear_lateral_raise.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/lying_rear_lateral_raise.png"
     },
@@ -1638,6 +1722,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_back_fly_anim.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/back_fly_anim.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_wings_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/wings_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
@@ -1784,6 +1872,10 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/low_triceps_extension_1.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_biceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/biceps_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_rotating_back_fly_anim.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/rotating_back_fly_anim.xml"
     },
@@ -1884,8 +1976,16 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/calc_bg.jpg"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_wings_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/wings_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_crunches_legs_on_ball_anim.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/crunches_legs_on_ball_anim.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_chest.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/chest.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_barbell_squat_anim.xml.flat",
@@ -2080,6 +2180,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_chest_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/chest_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/color/abc_primary_text_material_dark.xml"
     },
@@ -2094,6 +2198,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tea_btn.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/tea_btn.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_thigh_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/thigh_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_squats_4_2.png.flat",
@@ -2236,6 +2344,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7173c3428b97d8ad610201d45414367c/res/color-v23/design_tint_password_toggle.xml"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_abdominal_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/abdominal_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_abc_tooltip.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/layout/abc_tooltip.xml"
     },
@@ -2332,6 +2444,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_gradient.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/gradient.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_abc_vector_test.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable/abc_vector_test.xml"
     },
@@ -2364,12 +2480,20 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_shoulders_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/shoulders_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_barbell_shrugs_anim.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/barbell_shrugs_anim.xml"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_one_arm_shoulder_press_2.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/one_arm_shoulder_press_2.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_triceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/triceps_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_chest_btn_2.png.flat",
@@ -2464,6 +2588,10 @@
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_chest.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/chest.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_dumbbell_front_raises_1_icon.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/dumbbell_front_raises_1_icon.png"
     },
@@ -2474,6 +2602,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_barbell_bicep_curl.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/barbell_bicep_curl.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_shoulders_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/shoulders_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -2514,6 +2646,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_one_arm_shoulder_press_1.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/one_arm_shoulder_press_1.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_biceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/biceps_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -2700,6 +2836,10 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/ic_launcher.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_triceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/triceps_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/layout_food_items.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/layout/food_items.xml"
     },
@@ -2808,12 +2948,20 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/bodyweight_walking_lunge.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_gradient.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/gradient.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_calculator_menu_btn.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/calculator_menu_btn.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi_thigh_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xhdpi/thigh_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -3044,6 +3192,10 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/wing4.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_triceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/triceps_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -3074,6 +3226,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_alternate_biceps_curl_anim.xml.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/alternate_biceps_curl_anim.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_biceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/biceps_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -3200,6 +3356,10 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/seated_bicep_curl_2.png"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_gradient.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/gradient.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_squats_2_1.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/squats_2_1.png"
     },
@@ -3270,6 +3430,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_chest_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/chest_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bgstart_round.png.flat",
@@ -3374,6 +3538,10 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-mdpi_chest_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-mdpi/chest_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_lying_triceps_extension_across_face_1.png.flat",
@@ -3536,6 +3704,10 @@
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable/wings_menu_btn.xml"
     },
     {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-ldpi_chest_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-ldpi/chest_1.png"
+    },
+    {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_incline_bench_press_1.png.flat",
         "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/incline_bench_press_1.png"
     },
@@ -3654,6 +3826,14 @@
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/Users/gss-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dbee0416ff48270015709481abd1d9ac/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abdominal_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-xxhdpi/abdominal_1.png"
+    },
+    {
+        "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable-hdpi_triceps_1.png.flat",
+        "source": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/src/main/res/drawable-hdpi/triceps_1.png"
     },
     {
         "merged": "/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/res/merged/debug/drawable_triceps_dips_anim.xml.flat",

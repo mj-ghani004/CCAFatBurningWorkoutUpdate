@@ -9,14 +9,14 @@
 
     <ImageView
 
-        android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/bodybuilding"
-        android:scaleType="centerInside"
+        android:scaleType="centerCrop"
+        android:src="@drawable/startbg"
 
         />
-	<com.google.android.gms.ads.AdView
+
+    <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,43 +26,35 @@
         ads:adUnitId="ca-app-pub-7241082100261031/9859298101" />
 
 
-
-
-
     <android.support.v7.widget.AppCompatButton
 
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
-        android:layout_marginTop="30dp"
-        android:text="Let's Train"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/margin_48"
+        android:layout_centerInParent="true"
         android:background="@drawable/standard_buttons"
         android:fontFamily="sans-serif-light"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:textColor="@android:color/white"
 
 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-
-
-
-        android:paddingLeft="60dp"
-        android:paddingStart="60dp"
-        android:paddingRight="60dp"
-        android:paddingEnd="60dp"
-
-        android:paddingTop="8dp"
         android:paddingBottom="8dp"
 
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="10dp" />
-        <!--android:src="@drawable/train_menu_btn"-->
 
+        android:paddingEnd="60dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingStart="60dp"
 
+        android:paddingTop="8dp"
+        android:text="Let's Train"
 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+    <!--android:src="@drawable/train_menu_btn"-->
 
 
     <android.support.v7.widget.AppCompatButton
@@ -71,41 +63,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="15dp"
-        android:text="Fitness Calculator"
         android:background="@drawable/standard_buttons"
         android:fontFamily="sans-serif-light"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:textColor="@android:color/white"
 
 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-
-
-
-        android:paddingLeft="27dp"
-        android:paddingStart="27dp"
-        android:paddingRight="27dp"
-        android:paddingEnd="27dp"
-
-        android:paddingTop="8dp"
         android:paddingBottom="8dp"
 
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="10dp"/>
+
+        android:paddingEnd="27dp"
+        android:paddingLeft="27dp"
+        android:paddingRight="27dp"
+        android:paddingStart="27dp"
+
+        android:paddingTop="8dp"
+        android:text="Fitness Calculator"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
 
 
     <!--<ImageButton-->
-        <!--android:id="@+id/food"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/calculator"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:background="@null"-->
-        <!--android:src="@drawable/food_menu_btn" />-->
+    <!--android:id="@+id/food"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/calculator"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="@null"-->
+    <!--android:src="@drawable/food_menu_btn" />-->
 
     <android.support.v7.widget.AppCompatButton
 
@@ -113,82 +103,77 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/calculator"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="15dp"
-        android:text="Healthy Food"
         android:background="@drawable/standard_buttons"
         android:fontFamily="sans-serif-light"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:textColor="@android:color/white"
 
 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-
-
-
-        android:paddingLeft="50dp"
-        android:paddingStart="50dp"
-        android:paddingRight="50dp"
-        android:paddingEnd="50dp"
-
-        android:paddingTop="8dp"
         android:paddingBottom="8dp"
 
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="10dp"/>
+
+        android:paddingEnd="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingStart="50dp"
+
+        android:paddingTop="8dp"
+        android:text="Healthy Food"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
 
     <!--<ImageButton-->
-        <!--android:id="@+id/ImageView01"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/food"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:background="@null"-->
-        <!--android:src="@drawable/rate_menu_btn" />-->
+    <!--android:id="@+id/ImageView01"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/food"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="@null"-->
+    <!--android:src="@drawable/rate_menu_btn" />-->
 
     <android.support.v7.widget.AppCompatButton
 
         android:id="@+id/imageView01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:layout_below="@+id/food"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="15dp"
-        android:text="Rate Us"
         android:background="@drawable/standard_buttons"
         android:fontFamily="sans-serif-light"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:textColor="@android:color/white"
 
 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-
-
-
-        android:paddingLeft="75dp"
-        android:paddingStart="75dp"
-        android:paddingRight="75dp"
-        android:paddingEnd="75dp"
-
-        android:paddingTop="8dp"
         android:paddingBottom="8dp"
 
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="10dp"/>
+
+        android:paddingEnd="75dp"
+        android:paddingLeft="75dp"
+        android:paddingRight="75dp"
+        android:paddingStart="75dp"
+
+        android:paddingTop="8dp"
+        android:text="Rate Us"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:layout_below="@+id/adView"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"        android:layout_marginTop="25dp"
-        android:src="@drawable/logo"
-        android:layout_marginRight="70dp"/>
-
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/margin_8"
+        android:src="@drawable/logo" />
 
 
 </RelativeLayout>

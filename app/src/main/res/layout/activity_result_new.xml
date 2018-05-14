@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eee">
+    android:background="#eee"
+   >
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eee"
+
+    >
 
     <include
         android:id="@+id/toolbar"
@@ -365,16 +375,22 @@
 
         android:id="@+id/cardView_Result"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:cardCornerRadius="@dimen/margin_8"
         android:layout_below="@id/resultBmr_separator"
-        android:layout_margin="@dimen/margin_8">
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_marginRight="@dimen/margin_8"
+
+
+        >
 
 
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+
             >
 
             <TextView
@@ -385,9 +401,12 @@
                 android:gravity="center"
 
                 android:fontFamily="sans-serif-light"
+                android:paddingLeft="@dimen/margin_8"
 
-                android:text="Google.com"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:text="google.com"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                />
 
         </android.support.v4.widget.NestedScrollView>
 
@@ -399,11 +418,11 @@
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
+        android:layout_below="@id/cardView_Result"
         android:gravity="center_horizontal"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginBottom="@dimen/margin_8">
 
         <ImageButton
             android:id="@+id/exercise"
@@ -419,8 +438,11 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:background="@null"
-            android:src="@drawable/train_calculator_menu_btn" />
+            android:src="@drawable/train_calculator_menu_btn"
+            />
 
     </LinearLayout>
 
 </RelativeLayout>
+
+</ScrollView>

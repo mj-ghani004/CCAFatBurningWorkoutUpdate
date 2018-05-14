@@ -5,34 +5,38 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1526044748230"
+    timestamp="1526296500192"
     token="6882688489567199343"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="697" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="63" />
     <task
         name="verifier"
-        duration="0" />
+        duration="30" />
 
+    <artifact
+        location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
     <artifact
         location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1526041530175"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="1526295784697"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -41,7 +45,7 @@
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -50,7 +54,10 @@
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -59,37 +66,28 @@
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1526041868285"
+        timestamp="1526296056865"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
+            location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1526044583781"
+        timestamp="1526296500192"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1526044748230"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />

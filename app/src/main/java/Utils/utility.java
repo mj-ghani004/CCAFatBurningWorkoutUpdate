@@ -2,6 +2,7 @@ package Utils;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.telecom.ConnectionService;
 
 import com.cca.fat.burn.workout.R;
 
@@ -214,15 +215,15 @@ public class utility {
 
         String[] desc =
                 {
-                        "Broccoli is a great source of vitamins K and C, a good source of folate (folic acid) and also provides potassium, fiber. Vitamin C – builds collagen"
-                        , "Eggs are a very good source of inexpensive, high quality protein. More than half the protein of an egg is found in the egg white along with vitamin B2 and lower amounts of fat and cholesterol than the yolk. The whites are rich sources of selenium,"
-                        , "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels"
-                        , "A glass of chilled grapefruit juice, especially in summer, helps boost levels of vitamin C in your body, which makes them the most nutritious fruit amongst various citrus fruits"
-                        , "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant"
-                        , "Tea is a name given to a lot of brews, but purists consider only green tea, black tea, white tea, oolong tea, and pu-erh tea the real thing. They are all derived from the Camellia sinensis plant"
-                        , "Sweet potatoes are an excellent source of vitamin A (in the form of beta-carotene). They are also a very good source of vitamin C, manganese, copper, pantothenic acid and vitamin B6. Additionally, they are a good source of potassium, dietary fiber, niacin, vitamin B1, vitamin B2 and phosphorus."
-                        , "These ordinary mushrooms are super dense with nutrients, including having more copper, potassium, protein and selenium than either oyster or shiitake mushrooms. They're also a good source of phosphorus, zinc, niacin and pantothenic acid, "
-                        , "Calcium has been shown to have beneficial effects on bone mass in people of all ages, although the results are not always consistent, says Nieves, also an assistant professor of clinical epidemiology at Columbia University"
+                        "This exercise is best performed inside a squat rack for safety purposes",
+                        "Begin standing with your feet shoulder width apart and a barbell across your upper back",
+                        "Begin standing with your feet shoulder width apart and your hands on your hips",
+                        "Stand up straight while holding a dumbbell on each hand (palms facing the side of your ",
+                        "Move the cables to the bottom of the towers and select an appropriate weight",
+                        "This exercise is best performed inside a squat rack for safety purposes",
+                        "Using a leg press machine, sit down on the machine and place your legs on the",
+                        "While standing up straight with both feet next to each other at around shoulder width",
+                        "Lie with your back flat on a bench and your legs extended in front of you off the end"
                 };
 
         // Setting Array to Populate
@@ -276,15 +277,17 @@ public class utility {
 
         String[] desc =
                 {
-                        "Broccoli is a great source of vitamins K and C, a good source of folate (folic acid) and also provides potassium, fiber. Vitamin C – builds collagen"
-                        , "Eggs are a very good source of inexpensive, high quality protein. More than half the protein of an egg is found in the egg white along with vitamin B2 and lower amounts of fat and cholesterol than the yolk. The whites are rich sources of selenium,"
-                        , "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels"
-                        , "A glass of chilled grapefruit juice, especially in summer, helps boost levels of vitamin C in your body, which makes them the most nutritious fruit amongst various citrus fruits"
-                        , "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant"
-                        , "Tea is a name given to a lot of brews, but purists consider only green tea, black tea, white tea, oolong tea, and pu-erh tea the real thing. They are all derived from the Camellia sinensis plant"
-                        , "Sweet potatoes are an excellent source of vitamin A (in the form of beta-carotene). They are also a very good source of vitamin C, manganese, copper, pantothenic acid and vitamin B6. Additionally, they are a good source of potassium, dietary fiber, niacin, vitamin B1, vitamin B2 and phosphorus."
-                        , "These ordinary mushrooms are super dense with nutrients, including having more copper, potassium, protein and selenium than either oyster or shiitake mushrooms. They're also a good source of phosphorus, zinc, niacin and pantothenic acid, "
-                        , "Calcium has been shown to have beneficial effects on bone mass in people of all ages, although the results are not always consistent, says Nieves, also an assistant professor of clinical epidemiology at Columbia University"
+                        "For this exercise you will need to place a bench behind your back. With the",
+                        "Lie back on a flat bench. Using a close grip (around shoulder width)",
+                        "Select the desired weight and lay down face up on the bench of a seated row",
+                        "Your upper arms should create around a 25 degree angle when measured from",
+                        "While holding a barbell or EZ Curl bar with a pronated grip (palms facing",
+                        "Lie on a flat bench with an EZ bar loaded to an appropriate weight",
+                        "Grab a dumbbell and either sit on a military press bench or a utility bench",
+                        "Sit down at the end of a flat bench with a dumbbell in one arm using a ",
+                        "Sit down on a bench with back support and grasp a dumbbell with both hands and",
+                        "Lie down on a flat bench with a dumbbell in each hand on top of",
+                        "Attach a stirrup handle to a cable pulley and adjust the pulley up high"
                 };
 
         // Setting Array to Populate
@@ -333,15 +336,14 @@ public class utility {
 
         String[] desc =
                 {
-                        "Broccoli is a great source of vitamins K and C, a good source of folate (folic acid) and also provides potassium, fiber. Vitamin C – builds collagen"
-                        , "Eggs are a very good source of inexpensive, high quality protein. More than half the protein of an egg is found in the egg white along with vitamin B2 and lower amounts of fat and cholesterol than the yolk. The whites are rich sources of selenium,"
-                        , "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels"
-                        , "A glass of chilled grapefruit juice, especially in summer, helps boost levels of vitamin C in your body, which makes them the most nutritious fruit amongst various citrus fruits"
-                        , "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant"
-                        , "Tea is a name given to a lot of brews, but purists consider only green tea, black tea, white tea, oolong tea, and pu-erh tea the real thing. They are all derived from the Camellia sinensis plant"
-                        , "Sweet potatoes are an excellent source of vitamin A (in the form of beta-carotene). They are also a very good source of vitamin C, manganese, copper, pantothenic acid and vitamin B6. Additionally, they are a good source of potassium, dietary fiber, niacin, vitamin B1, vitamin B2 and phosphorus."
-                        , "These ordinary mushrooms are super dense with nutrients, including having more copper, potassium, protein and selenium than either oyster or shiitake mushrooms. They're also a good source of phosphorus, zinc, niacin and pantothenic acid, "
-                        , "Calcium has been shown to have beneficial effects on bone mass in people of all ages, although the results are not always consistent, says Nieves, also an assistant professor of clinical epidemiology at Columbia University"
+                        "Lie flat on your back and bend your knees about 60 degrees",
+                        "Lie flat on your back with your feet flat on the ground",
+                        "Lie flat on your back with your feet resting on an exercise ball and your knees",
+                        "Secure your legs at the end of the decline bench and lie down",
+                        "Lie on an exercise ball with your lower back curvature pressed against",
+                        "Stand up straight while holding a dumbbell on the left hand (palms facing",
+                        "Lie flat on your back on a bench with your feet flat on the ground or resting",
+                        "Lie with your back flat on a bench, hold some weight on your chest and your"
                 };
 
         // Setting Array to Populate
@@ -367,7 +369,7 @@ public class utility {
                         "Wide Row",
                         "Kneeling One Arm Row",
                         "Back Fly",
-                        "Pull Down With Squat With Elbows Flexed",
+                        "Dead Lift",
                         "Stiffed Legged Dead Lift",
                         "Crossover Row",
                         "Hyper Extension",
@@ -381,7 +383,7 @@ public class utility {
                         context.getResources().getDrawable(R.drawable.wide_row),
                         context.getResources().getDrawable(R.drawable.kneeling_one_arm_row),
                         context.getResources().getDrawable(R.drawable.back_fly),
-                        context.getResources().getDrawable(R.drawable.pulldown_with_squat_with_elbows_flexed),
+                        context.getResources().getDrawable(R.drawable.dead_lift),
                         context.getResources().getDrawable(R.drawable.stiffed_legged_dead_lift),
                         context.getResources().getDrawable(R.drawable.crossover_row),
                         context.getResources().getDrawable(R.drawable.hyperextension),
@@ -394,17 +396,68 @@ public class utility {
 
         String[] desc =
                 {
-                        "Broccoli is a great source of vitamins K and C, a good source of folate (folic acid) and also provides potassium, fiber. Vitamin C – builds collagen"
-                        , "Eggs are a very good source of inexpensive, high quality protein. More than half the protein of an egg is found in the egg white along with vitamin B2 and lower amounts of fat and cholesterol than the yolk. The whites are rich sources of selenium,"
-                        , "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels"
-                        , "A glass of chilled grapefruit juice, especially in summer, helps boost levels of vitamin C in your body, which makes them the most nutritious fruit amongst various citrus fruits"
-                        , "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant"
-                        , "Tea is a name given to a lot of brews, but purists consider only green tea, black tea, white tea, oolong tea, and pu-erh tea the real thing. They are all derived from the Camellia sinensis plant"
-                        , "Sweet potatoes are an excellent source of vitamin A (in the form of beta-carotene). They are also a very good source of vitamin C, manganese, copper, pantothenic acid and vitamin B6. Additionally, they are a good source of potassium, dietary fiber, niacin, vitamin B1, vitamin B2 and phosphorus."
-                        , "These ordinary mushrooms are super dense with nutrients, including having more copper, potassium, protein and selenium than either oyster or shiitake mushrooms. They're also a good source of phosphorus, zinc, niacin and pantothenic acid, "
-                        , "Calcium has been shown to have beneficial effects on bone mass in people of all ages, although the results are not always consistent, says Nieves, also an assistant professor of clinical epidemiology at Columbia University"
-                        , "Calcium has been shown to have beneficial effects on bone mass in people of all ages, although the results are not always consistent, says Nieves, also an assistant professor of clinical epidemiology at Columbia University"
+                        "The wide row is an effective exercise for developing the lats, and is",
+                        "The one-arm dumbbell row, when performed correctly, is one of the most versatile",
+                        "Lie down on your chest on the bench and grab two dumbbells",
+                        "Dead lift refers to the lifting of dead (without momentum) weight",
+                        "Stiff Legged Dead lift refers to the lifting of dead (without momentum) weight",
+                        "Get a platform of some sort (it can be an aerobics or calf raise platform)",
+                        "Lie face down on a hyperextension bench, tucking your ankles securely under the",
+                        "Choose a flat bench and place a dumbbell on each side of it",
+                        "Sit down on a pull-down machine with a wide bar attached to the top pulley",
+                        "Lie on your back on the glideboard, feet on the squat stand with your knees bent and hold the"
+                };
 
+        // Setting Array to Populate
+
+        ArrayList<FoodProvider> data = new ArrayList<>();
+
+        for (int i = 0; i < titles.length; i++) {
+            data.add(new FoodProvider(drawables[i], titles[i], desc[i]));
+        }
+
+        return data;
+
+
+    }
+
+    public ArrayList<FoodProvider> getDataForExercises(Context context)
+
+    {
+
+        String[] titles =
+                {
+                        Constants.CHEST,
+                        Constants.BICEPS,
+                        Constants.SHOULDER,
+                        Constants.THIGH,
+                        Constants.TRICEPS,
+                        Constants.WINGS,
+                        Constants.ABDOMINAL
+
+                };
+
+        Drawable[] drawables =
+                {
+                        context.getResources().getDrawable(R.drawable.chest_1),
+                        context.getResources().getDrawable(R.drawable.biceps_1),
+                        context.getResources().getDrawable(R.drawable.shoulders_1),
+                        context.getResources().getDrawable(R.drawable.thigh_1),
+                        context.getResources().getDrawable(R.drawable.triceps_1),
+                        context.getResources().getDrawable(R.drawable.wings_1),
+                        context.getResources().getDrawable(R.drawable.abdominal_1)
+
+                };
+
+        String[] desc =
+                {
+                        "This results in higher and relatively larger-looking breasts, improving their shape",
+                        "A large muscle in the upper arm which turns the hand to face palm uppermost and flexes the arm and forearm",
+                        "The upper joint of each of a person's arms and the part of the body between this and the neck",
+                        "The part of the human leg between the hip and the knee",
+                        "Any of several muscles having three points of attachment at one end, particularly also triceps brachii",
+                        "Many other athletes, such as gymnasts, benefit from the upper body conditioning of Wing Chun",
+                        "The abdomen (commonly called the belly) is the body space between the thorax (chest) and pelvis"
                 };
 
         // Setting Array to Populate
