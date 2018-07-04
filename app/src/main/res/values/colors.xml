@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#d1434c</color>
-    <color name="colorPrimaryDark">#ca0714</color>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="calculatorbg">#e2e2e2</color>
     <color name="food_bg">#ffeede</color>
 
 

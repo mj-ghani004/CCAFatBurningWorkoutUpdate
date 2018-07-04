@@ -1,4 +1,4 @@
-#Mon May 14 16:07:41 PKT 2018
+#Tue Jun 26 16:39:28 PKT 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/14
-base.2=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/11
-base.1=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/13
-base.0=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/12
+base.3=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/13
+base.2=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/12
+base.1=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/11
+base.0=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/14

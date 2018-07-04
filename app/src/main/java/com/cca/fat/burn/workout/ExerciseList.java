@@ -23,7 +23,7 @@ public class ExerciseList extends AppCompatActivity {
 
 
     Toolbar mToolbar;
-    private ArrayList<FoodProvider> arrayList = new ArrayList<FoodProvider>();
+    private ArrayList<FoodProvider> arrayList = new ArrayList<>();
     RecyclerView mRecyclerView;
     ExerciseListAdapter mAdapter;
     RecyclerView.LayoutManager mLayoutManager;
@@ -56,6 +56,7 @@ public class ExerciseList extends AppCompatActivity {
 
         arrayList = populateArray(mExerciseType, this);
 
+        // Initializing List Data
 
         mRecyclerView = findViewById(R.id.recyclerView_food);
         mAdapter = new ExerciseListAdapter(arrayList);

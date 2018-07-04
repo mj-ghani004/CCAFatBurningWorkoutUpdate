@@ -1,6 +1,5 @@
 package com.cca.fat.burn.workout;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,13 +10,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 public class ResultActivity extends AppCompatActivity {
 
-    private String[] list_array;
-    String ft;
     String in;
 
     AdView adView;
@@ -40,10 +36,6 @@ public class ResultActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
-//		adView = (AdView)this.findViewById(R.id.adView);
-//		AdRequest adRequest = new AdRequest.Builder().addTestDevice("39D2CA637D78D46DABA54D4AB9F15E29").build();
-//		adView.loadAd(adRequest);
 
         Bundle b = getIntent().getExtras(); // getting bundle intents
 
@@ -76,8 +68,8 @@ public class ResultActivity extends AppCompatActivity {
 
         tv6.setMovementMethod(new ScrollingMovementMethod());
 
-        final ImageButton recExerImgBtn = (ImageButton) findViewById(R.id.exercise);
-        ImageButton trainButton = (ImageButton) findViewById(R.id.train);
+        final ImageButton recExerImgBtn = findViewById(R.id.exercise);
+        ImageButton trainButton = findViewById(R.id.train);
 
         // setting text to display
         t4.setText(name);

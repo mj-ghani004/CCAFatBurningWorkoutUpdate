@@ -1,15 +1,15 @@
 #Internal package file, do not edit.
-#Fri May 11 17:15:15 PKT 2018
-1.base=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/assets/debug
-2.path=fonts/digi.TTF
+#Mon Jun 25 15:22:56 PKT 2018
+1.base=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/assets/debug
+2.path=fonts/ufonts.ttf
 0.baseType=DIRECTORY
-2.base=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/assets/debug
+2.base=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/assets/debug
 2.set=ASSET
 1.baseType=DIRECTORY
 count=3
 1.set=ASSET
-0.path=fonts/ufonts.ttf
+0.path=Severely Underweight.txt
 0.set=ASSET
-0.base=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/assets/debug
+0.base=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/assets/debug
 2.baseType=DIRECTORY
-1.path=Severely Underweight.txt
+1.path=fonts/digi.TTF

@@ -7,12 +7,12 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -42,13 +42,7 @@ public class StartActivity extends Activity {
         calculator = findViewById(R.id.calculator);
         food = findViewById(R.id.food);
 
-        // Look up the AdView as a resource and load a request.
-        adView = (AdView) this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice(
-                "39D2CA637D78D46DABA54D4AB9F15E29").build();
-        adView.loadAd(adRequest);
 
-        ads();
 
         pref = getSharedPreferences(PREFS_PRIVATE, Context.MODE_PRIVATE);
 
@@ -90,6 +84,9 @@ public class StartActivity extends Activity {
             }
         });
 
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+        }
     }
 
     // for interstitial ads
@@ -101,20 +98,14 @@ public class StartActivity extends Activity {
         interstitial.loadAd(adRequest);
     }
 
-    public void displayInterstitial() {
-        if (interstitial.isLoaded()) {
-            interstitial.show();
-        }
-    }
+
 
     @Override
     public void onBackPressed() {
         // TODO Auto-generated method stub
 
         try {
-            // // for interstitial ads
-            displayInterstitial();
-            ads();
+
 
             AlertDialog.Builder rateUsDialogBuilder = new AlertDialog.Builder(
                     StartActivity.this);

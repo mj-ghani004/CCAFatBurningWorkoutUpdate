@@ -52,7 +52,7 @@
 
         android:fontFamily="sans-serif-light"
         android:gravity="center"
-        android:text="Jalal"
+        android:text="@string/labe_jalal"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/black"
 
@@ -97,7 +97,7 @@
         android:layout_toRightOf="@id/textViewResult_genderLabel"
         android:fontFamily="sans-serif-light"
         android:gravity="center"
-        android:text="Male"
+        android:text="@string/label_male"
 
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/black" />
@@ -143,7 +143,7 @@
         android:layout_toEndOf="@id/textViewResult_genderLabel"
         android:layout_toRightOf="@id/textViewResult_genderLabel"
         android:fontFamily="sans-serif-light"
-        android:text="68"
+        android:text="@string/label_68"
 
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/black" />
@@ -159,7 +159,7 @@
 
 
         android:fontFamily="sans-serif-light"
-        android:text="kg"
+        android:text="@string/label_kg"
         android:textAppearance="?android:attr/textAppearanceSmall"
 
 
@@ -206,7 +206,7 @@
         android:layout_toEndOf="@id/textViewResult_heightLabel"
         android:layout_toRightOf="@id/textViewResult_heightLabel"
         android:fontFamily="sans-serif-light"
-        android:text="5 fts"
+        android:text="@string/_5_fts"
 
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/black" />
@@ -223,7 +223,7 @@
 
         android:layout_toRightOf="@id/textViewResult_heightFeet"
         android:fontFamily="sans-serif-light"
-        android:text="6 Inches"
+        android:text="@string/_6_inches"
         android:textAppearance="?android:attr/textAppearanceSmall"
 
 
@@ -403,10 +403,10 @@
                 android:fontFamily="sans-serif-light"
                 android:paddingLeft="@dimen/margin_8"
 
-                android:text="google.com"
+                android:text=""
                 android:textAppearance="?android:attr/textAppearanceSmall"
 
-                />
+                android:paddingStart="@dimen/margin_8" />
 
         </android.support.v4.widget.NestedScrollView>
 
@@ -415,7 +415,6 @@
 
 
     <LinearLayout
-        android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/cardView_Result"

@@ -1,4 +1,4 @@
-#Mon May 14 16:03:23 PKT 2018
-base.0=/Volumes/DDrive/AndroidApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/10
+#Tue Jun 26 16:34:25 PKT 2018
+base.0=/Volumes/DDrive/AndroidApps/OfficialApps/CCAFatBurningWorkoutUpdate/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex

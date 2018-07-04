@@ -2,7 +2,6 @@ package Utils;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.telecom.ConnectionService;
 
 import com.cca.fat.burn.workout.R;
 
@@ -470,6 +469,56 @@ public class utility {
 
         return data;
 
+
+    }
+
+    public ArrayList<FoodProvider> getDataForFood(Context context) {
+         String[] titles =
+                {
+                        "Broccoli",
+                        "Eggs",
+                        "Almonds",
+                        "Grapefruit",
+                        "WheatGerm",
+                        "Tea",
+                        "Sweet Potato",
+                        "Mushrooms",
+                        "Low Fat Yogurt"};
+
+         String[] desc =
+                {
+                        "Broccoli is a great source of vitamins K and C, a good source of folate (folic acid) and also provides potassium, fiber. Vitamin C – builds collagen"
+                        , "Eggs are a very good source of inexpensive, high quality protein. More than half the protein of an egg is found in the egg white along with vitamin B2 and lower amounts of fat and cholesterol than the yolk. The whites are rich sources of selenium,"
+                        , "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels"
+                        , "A glass of chilled grapefruit juice, especially in summer, helps boost levels of vitamin C in your body, which makes them the most nutritious fruit amongst various citrus fruits"
+                        , "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant"
+                        , "Tea is a name given to a lot of brews, but purists consider only green tea, black tea, white tea, oolong tea, and pu-erh tea the real thing. They are all derived from the Camellia sinensis plant"
+                        , "Sweet potatoes are an excellent source of vitamin A (in the form of beta-carotene). They are also a very good source of vitamin C, manganese, copper, pantothenic acid and vitamin B6. Additionally, they are a good source of potassium, dietary fiber, niacin, vitamin B1, vitamin B2 and phosphorus."
+                        , "These ordinary mushrooms are super dense with nutrients, including having more copper, potassium, protein and selenium than either oyster or shiitake mushrooms. They're also a good source of phosphorus, zinc, niacin and pantothenic acid, "
+                        , "Calcium has been shown to have beneficial effects on bone mass in people of all ages, although the results are not always consistent, says Nieves, also an assistant professor of clinical epidemiology at Columbia University"
+                };
+
+        Drawable[] drawables =
+                {
+                        context.getResources().getDrawable(R.drawable.broccoli),
+                        context.getResources().getDrawable(R.drawable.eggs),
+                        context.getResources().getDrawable(R.drawable.almonds),
+                        context.getResources().getDrawable(R.drawable.grapefruit),
+                        context.getResources().getDrawable(R.drawable.wheat_germ),
+                        context.getResources().getDrawable(R.drawable.tea),
+                        context.getResources().getDrawable(R.drawable.sweetpotato),
+                        context.getResources().getDrawable(R.drawable.mushrooms),
+                        context.getResources().getDrawable(R.drawable.low_fat_yogurt),
+
+                };
+
+        ArrayList<FoodProvider> data = new ArrayList<>();
+
+        for (int i = 0; i < titles.length; i++) {
+            data.add(new FoodProvider(drawables[i], titles[i], desc[i]));
+        }
+
+        return data;
 
     }
 }

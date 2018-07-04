@@ -5,7 +5,6 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Gravity;
@@ -13,7 +12,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
@@ -22,7 +20,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.dx.dxloadingbutton.lib.LoadingButton;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
@@ -159,7 +156,7 @@ public class CalculatorActivity extends Activity {
         ArrayAdapter ad2 = new ArrayAdapter(this,
                 android.R.layout.simple_spinner_item, inch);
         ad2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Spinner inchSpinner = (Spinner) findViewById(R.id.spinnerCalculator_HeightInch);
+        Spinner inchSpinner = findViewById(R.id.spinnerCalculator_HeightInch);
         inchSpinner.setAdapter(ad2);
 
         inchSpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
@@ -305,29 +302,29 @@ public class CalculatorActivity extends Activity {
 
                     b.putString("gender", g);
 
-                    pref.edit().putString("gender", g).commit();
+                    pref.edit().putString("gender", g).apply();
 
                     if (lb.isChecked()) {
                         w = "lbs";
                     } else
                         w = "kgs";
                     b.putString("w", w);
-                    pref.edit().putString("w", name.getText().toString()).commit();
+                    pref.edit().putString("w", name.getText().toString()).apply();
 
                     b.putString("mass", weightText.getText().toString());
                     b.putString("name", name.getText().toString());
 
-                    pref.edit().putString("name", name.getText().toString()).commit();
-                    pref.edit().putString("mass", weightText.getText().toString()).commit();
+                    pref.edit().putString("name", name.getText().toString()).apply();
+                    pref.edit().putString("mass", weightText.getText().toString()).apply();
 
                     b.putString("feets", ft);
-                    pref.edit().putString("feets", ft.toString()).commit();
+                    pref.edit().putString("feets", ft.toString()).apply();
                     b.putString("inchs", in);
-                    pref.edit().putString("inchs", in.toString()).commit();
+                    pref.edit().putString("inchs", in.toString()).apply();
 
                     b.putString("age", ageText.getText().toString());
 
-                    pref.edit().putString("age", ageText.getText().toString()).commit();
+                    pref.edit().putString("age", ageText.getText().toString()).apply();
                     b.putFloat("BMI", bmi);
                     b.putFloat("BMR", bmr);
                     b.putString("comments", out);
@@ -338,9 +335,16 @@ public class CalculatorActivity extends Activity {
                         public void run() {
 
                             calcDietImgBtn.loadingSuccessful();
-                            startActivity(intent);
                         }
                     }, 3000);
+
+                    Handler handler1 = new Handler();
+                    handler1.postDelayed(new Runnable() {
+                        public void run() {
+
+                            startActivity(intent);
+                        }
+                    }, 4000);
 
 
                 }

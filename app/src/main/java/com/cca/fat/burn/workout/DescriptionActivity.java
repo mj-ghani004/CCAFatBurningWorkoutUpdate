@@ -1,6 +1,6 @@
 package com.cca.fat.burn.workout;
 
-import android.app.Activity;
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -39,30 +39,23 @@ public class DescriptionActivity extends AppCompatActivity {
 	 Toolbar mToolbar;
 	 String mExerciseName;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_description11);
 
-//        mToolbar = findViewById(R.id.toolbar);
-//        setSupportActionBar(mToolbar);
-//
-//        getSupportActionBar().setTitle("Healthy Foods");
-//
-//        // For Back Arrow
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
 
         // Look up the AdView as a resource and load a request.
-        adView = (AdView) this.findViewById(R.id.adView);
+        adView =  this.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().addTestDevice("39D2CA637D78D46DABA54D4AB9F15E29").build();
         adView.loadAd(adRequest);
 
-        anim = (ImageView) findViewById(R.id.imageView);
-        heading = (TextView) findViewById(R.id.heading);
-        description = (WebView) findViewById(R.id.description);
-        header = (TextView) findViewById(R.id.descHeading);
+        anim =  findViewById(R.id.imageView);
+        heading =  findViewById(R.id.heading);
+        description =  findViewById(R.id.description);
+        header =  findViewById(R.id.descHeading);
 
         pref = getSharedPreferences(PREFS_PRIVATE, Context.MODE_PRIVATE);
         mainVariable = pref.getInt("main", 0);
@@ -84,8 +77,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 1:
                         anim.setBackgroundResource(R.drawable.dumbbell_bench_press_anim);
-                        heading.setText("Bench Press");
-                        header.setText("Bench Press");
+                        heading.setText(R.string.label_bench_press);
+                        header.setText(R.string.label_bench_press);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps</h3><ol>	<li>Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other.   <li>Then, using your thighs to help raise the dumbbells up, lift the dumbbells one at a time so that you can hold them in front of you at shoulder width.    <li>Once at shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. The dumbbells should be just to the sides of your chest, with your upper arm and forearm creating a 90 degree angle. Be sure to maintain full control of the dumbbells at all times. This will be your starting position.    <li>Then, as you breathe out, use your chest to push the dumbbells up. Lock your arms at the top of the lift and squeeze your chest, hold for a second and then begin coming down slowly. Tip: Ideally, lowering the weight should take about twice as long as raising it.    <li>Repeat the movement for the prescribed amount of repetitions of your training program.</ol><h3>Caution:</h3>When you are done, do not drop the dumbbells next to you as this is dangerous to your rotator cuff in your shoulders and others working out around you.<br><br>Just lift your legs from the floor bending at the knees, twist your wrists so that the palms of your hands are facing each other and place the dumbbells on top of your thighs. When both dumbbells are touching your thighs simultaneously push your upper torso up (while pressing the dumbbells on your thighs) and also perform a slight kick forward with your legs (keeping the dumbbells on top of the thighs). By doing this combined movement, momentum will help you get back to a sitting position with both dumbbells still on top of your thighs. At this moment you can place the dumbbells on the floor.<h3>Variations:</h3>Another variation of this exercise is to perform it with the palms of the hands facing each other.<br><br>Also, you can perform the exercise with the palms facing each other and then twisting the wrist as you lift the dumbbells so that at the top of the movement the palms are facing away from the body. I personally do not use this variation very often as it seems to be hard on my shoulders.";
 
@@ -100,8 +93,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 2:
                         anim.setBackgroundResource(R.drawable.decline_cruch_anim);
-                        heading.setText("Decline Crunches");
-                        header.setText("Decline Crunches");
+                        heading.setText(R.string.label_decline_crunches);
+                        header.setText(R.string.label_decline_crunches);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps:</h3><ol>	<li>Secure your legs at the end of the decline bench and lie down.	<li>Now place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head.	<li>While pushing the small of your back down in the bench to better isolate your abdominal muscles, begin to roll your shoulders off it.	Continue to push down as hard as you can with your lower back as you contract your abdominals and exhale. Your shoulders should come up <li>off the bench only about four inches, and your lower back should remain on the bench. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.	<li>After the one second contraction, begin to come down slowly again to the starting position as you inhale.	<li>Repeat for the recommended amount of repetitions.</ol><h3>Variations:</h3>There are many variations for the crunch. You can perform the exercise with weights, or on top of an exercise ball or on a flat bench.";
 
@@ -115,8 +108,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 3:
                         anim.setBackgroundResource(R.drawable.incline_bench_press_anim);
-                        heading.setText("Incline Bench Press");
-                        header.setText("Incline Bench Press");
+                        heading.setText(R.string.label_incline_bench_press);
+                        header.setText(R.string.label_incline_bench_press);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps:</h3><ol>	<li>Lie back on an incline bench with a dumbbell in each hand atop your thighs. The palms of your hands will be facing each other.    <li>Then, using your thighs to help push the dumbbells up, lift the dumbbells one at a time so that you can hold them at shoulder width.    <li>Once you have the dumbbells raised to shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. This will be your starting position.    <li>Be sure to keep full control of the dumbbells at all times. Then breathe out and push the dumbbells up with your chest.    <li>Lock your arms at the top, hold for a second, and then start slowly lowering the weight. Tip Ideally, lowering the weights should take about twice as long as raising them.    <li>Repeat the movement for the prescribed amount of repetitions.    <li>When you are done, place the dumbbells back on your thighs and then on the floor. This is the safest manner to release the dumbbells.</ol><h3>Variations:</h3>    You can use several angles on the incline bench if the bench you are using is adjustable.<br><br>Another variation of this exercise is to perform it with the palms of the hands facing each other.<br><br>Also, you can perform the exercise with the palms facing each other and then twisting the wrist as you lift the dumbbells so that at the top of the movement the palms are facing away from the body. I personally do not use this variation very often as it seems to be hard on my shoulders.";
 
@@ -129,8 +122,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 4:
                         anim.setBackgroundResource(R.drawable.incline_fly_anim);
-                        heading.setText("Incline Fly");
-                        header.setText("Incline Fly");
+                        heading.setText(R.string.label_incline_fly);
+                        header.setText(R.string.label_incline_fly);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps:</h3><ol>	<li>Hold a dumbbell on each hand and lie on an incline bench that is set to an incline angle of no more than 30 degrees.    <li>Extend your arms above you with a slight bend at the elbows.    <li>Now rotate the wrists so that the palms of your hands are facing you. Tip: The pinky fingers should be next to each other. This will be your starting position.    <li>As you breathe in, start to slowly lower the arms to the side while keeping the arms extended and while rotating the wrists until the palms of the hand are facing each other. Tip: At the end of the movement the arms will be by your side with the palms facing the ceiling.    <li>As you exhale start to bring the dumbbells back up to the starting position by reversing the motion and rotating the hands so that the pinky fingers are next to each other again. Tip: Keep in mind that the movement will only happen at the shoulder joint and at the wrist. There is no motion that happens at the elbow joint.    <li>Repeat for the recommended amount of repetitions.</ol><h3>Variations: </h3>  You can perform regular flyes and also twisting flyes where your initial position starts with the thumbs facing each other instead of the pinky.";
 
@@ -143,8 +136,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 5:
                         anim.setBackgroundResource(R.drawable.lying_fly_anim);
-                        heading.setText("Dumbbell Lying Fly");
-                        header.setText("Dumbbell Lying Fly");
+                        heading.setText(R.string.dumbell_lying_fly);
+                        header.setText(R.string.dumbell_lying_fly);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps:</h3><ol>	<li>Lie down on a flat bench with a dumbbell on each hand resting on top of your thighs. The palms of your hand will be facing each other.    <li>Then using your thighs to help raise the dumbbells, lift the dumbbells one at a time so you can hold them in front of you at shoulder width with the palms of your hands facing each other. Raise the dumbbells up like you're pressing them, but stop and hold just before you lock out. This will be your starting position.    <li>With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint.    <li>Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.    <li>Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions.</ol><h3>Variations:</h3> You may want to use a palms facing forward version for different stimulation.";
 
@@ -158,8 +151,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 6:
                         anim.setBackgroundResource(R.drawable.dumbbell_flys_anim);
-                        heading.setText("Dumbbell Flyes");
-                        header.setText("Dumbbell Flyes");
+                        heading.setText(R.string.dumbell_fly);
+                        header.setText(R.string.dumbell_fly);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps</h3><ol>	<li>Lie down on a flat bench with a dumbbell on each hand resting on top of your thighs. The palms of your hand will be facing each other.<li>Then using your thighs to help raise the dumbbells, lift the dumbbells one at a time so you can hold them in front of you at shoulder width with the palms of your hands facing each other. Raise the dumbbells up like you're pressing them, but stop and hold just before you lock out. This will be your starting position.<li>With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint.<li>Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.<li>Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions.</ol><h3>Variations:</h3> You may want to use a palms facing forward version for different stimulation.";
 
@@ -171,8 +164,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 7:
                         anim.setBackgroundResource(R.drawable.barbell_bench_press_anim);
-                        heading.setText("Barbell Bench Press");
-                        header.setText("Barbell Bench Press");
+                        heading.setText(R.string.barbel_bench_press);
+                        header.setText(R.string.barbel_bench_press);
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps:</h3><ol>	<li>Lie back on a flat bench. Using a medium width grip (a grip that creates a 90-degree angle in the middle of the movement between the forearms and the upper arms), lift the bar from the rack and hold it straight over you with your arms locked. This will be your starting position.		<li>From the starting position, breathe in and begin coming down slowly until the bar touches your middle chest.		<li>After a brief pause, push the bar back to the starting position as you breathe out. Focus on pushing the bar using your chest muscles. Lock your arms and squeeze your chest in the contracted position at the top of the motion, hold for a second and then start coming down slowly again. Tip: Ideally, lowering the weight should take about twice as long as raising it.		<li>Repeat the movement for the prescribed amount of repetitions.		<li>When you are done, place the bar back in the rack.</ol><h3>Caution:</h3>If you are new at this exercise, it is advised that you use a spotter. If no spotter is available, then be conservative with the amount of weight used.<br>Also, beware of letting the bar drift too far forward. You want the bar to touch your middle chest and nowhere else.<br>Don't bounce the weight off your chest. You should be in full control of the barbell at all times.";
 
@@ -186,8 +179,8 @@ public class DescriptionActivity extends AppCompatActivity {
 
                     case 8:
                         anim.setBackgroundResource(R.drawable.dumbbell_decline_flys_anim);
-                        heading.setText("Dumbbell Decline Fly");
-                        header.setText("Dumbbell Decline Fly");
+                        heading.setText(R.string.dumbel_decline_fly);
+                        header.setText(R.string.dumbel_decline_fly);
 
 
                         htmlText = "<style>	html {		color: #FFFFFF;	}</style><h3>Steps: </h3><ol>	<li>Secure your legs at the end of the decline bench and lie down with a dumbbell on each hand on top of your thighs. The palms of your hand will be facing each other.    <li>Once you are laying down, move the dumbbells in front of you at shoulder width. The palms of the hands should be facing each other and the arms should be perpendicular to the floor and fully extended. This will be your starting position.    <li>With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint.    <li>Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.    <li>Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions.</ol><h3>Variation: </h3> You may want to use a palms facing forward version for different stimulation.";
@@ -1076,112 +1069,112 @@ public class DescriptionActivity extends AppCompatActivity {
 
                 break;
 
-            case 8:
-                switch (listVariable) {
-                    case 1:
-                        anim.setBackgroundResource(R.drawable.broccoli);
-                        heading.setText("Broccoli");
-                        header.setText("Broccoli");
+//            case 8:
+//                switch (listVariable) {
+//                    case 1:
+//                        anim.setBackgroundResource(R.drawable.broccoli);
+//                        heading.setText("Broccoli");
+//                        header.setText("Broccoli");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; }</style> <h3>Why Broccoli</h3> <p>Broccoli has more <span style='color: red;'>Vitamin C </span>than an orange and contains high amounts of antioxidants that will help to repair your muscles and bulk up your immune system. It also contains <span style='color: red;'>phyto-chemicals</span> which have anti-estrogen properties that help lower estrogen levels, increase testosterone and help fight off body fat storage.</p> <p>Broccoli is high in vitamin C and dietary fiber. It also contains multiple <span style='color: red;'>nutrients with potent anti-cancer properties</span>, such as di-indolylmethane and small amounts of selenium. A single serving provides more than 30 mg of vitamin C and a half-cup provides 52 mg of vitamin C.[10] The 3,3'-Diindolylmethane found in broccoli is a potent modulator of the innate immune response system with anti-viral, anti-bacterial and anti-cancer activity. Broccoli also contains the compound glucora-phanin, which can be processed into an anti-cancer compound sulfo-raphane, though the anti-cancer benefits of broccoli are greatly reduced if the vegetable is boiled. Broccoli is also an excellent source of indole-3-carbinol, a chemical which boosts <span style='color: red;'>DNA repair</span> in cells and appears to block the growth of cancer cells.</p> <h3>Weight Reduction</h3> <p>Boiling broccoli reduces the levels of suspected <span style='color: red;'>anti-carcinogenic compounds</span>, such as sulfo-raphane, with losses of 20�30% after five minutes, 40�50% after ten minutes, and 77% after thirty minutes., However, other preparation methods such as steaming, microwaving, and stir frying had no significant effect on the compounds.</p> <p>Broccoli has the highest levels of carotenoids in the brassica family. It is particularly rich in lutein and also provides a modest amount of beta-carotene.</p> ";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 2:
+//                        anim.setBackgroundResource(R.drawable.eggs);
+//                        heading.setText("Eggs");
+//                        header.setText("Eggs");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Eggs</h3> <p>These quick and easy treats are staples to the any fitness meal regimen. They are loaded with approximately 5 to 6 grams of protein at the very low cost of only 60 calories per medium-sized egg. It's also important to note that eggs are high in <span style='color: red;'>BCAAs</span>, which aids in muscular growth and development</p> <p>With 6 grams of the highest quality protein and 14 key nutrients, eggs provide the energy needed to keep you going. They are a natural choice for a healthy, active lifestyle.</p> <p>Eggs are one of the few foods considered to be a complete protein, because they contain all <span style='color: red;'>9 essential amino acids</span>. Amino acids are considered the 'building blocks for the body' because they help form protein.</p> <p>In addition to giving you energy, your body uses the protein found in eggs to build and repair body tissue and cells, grow strong hair and nails, build and maintain healthy muscles, help fight infections, help keep your body fluids in balance</p> ";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//
+//                        break;
+//                    case 3:
+//                        anim.setBackgroundResource(R.drawable.almonds);
+//                        heading.setText("Almonds");
+//                        header.setText("Almonds");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Almonds</h3> <p>The almond is a nutritionally dense food and is a rich source of <span style='color: red;'>vitamin E</span>, containing 26 mg per 100 g. They are also rich in <span style='color: red;'>dietary fiber, B vitamins, essential minerals such as magnesium, copper, manganese, calcium, and potassium as well as monounsaturated fats and polyunsaturated fats</span>, fats which potentially may lower LDL cholesterol. Typical of nuts and seeds, almonds also contain phytosterols such as Beta-sitosterol, stigmasterol, campesterol, sitostanol, and campestanol, which have been associated with cholesterol-lowering properties.</p> <p>Preliminary research associates consumption of almonds with elevated blood levels of high density lipoproteins and lower low density lipoproteins.</p> <p>Almonds may cause allergy or intolerance. Cross-reactivity is common with peach allergens (lipid transfer proteins) and tree nut allergens. Symptoms range from local signs and symptoms (e.g., oral allergy syndrome, contact urticaria) to systemic signs and symptoms including anaphylaxis (e.g., urticaria, angioedema, gastrointestinal and respiratory symptoms).</p> <p>During the digestion process in humans, almond flour may be fermented into short-chain <span style='color: red;'>fatty acids</span>, most notably butyrate which is a substrate for cells lining the large intestine.</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 4:
+//                        anim.setBackgroundResource(R.drawable.grapefruit);
+//                        heading.setText("Grapefruit");
+//                        header.setText("Grapefruit");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Grapefruit?</h3> <p>Grapefruit is an excellent source of many <span style='color: red;'>nutrients and phytochemicals</span> that contribute to a healthy diet. Grapefruit is a good source of <span style='color: red;'>vitamin C</span>, contains the <span style='color: red;'>fiber pectin</span>, and the pink and red hues contain the beneficial <span style='color: red;'>antioxidant lycopene</span>. Studies have shown grapefruit helps lower cholesterol,] and there is evidence that the seeds have antioxidant properties, Grapefruit forms a core part of the 'grapefruit diet', the theory being that the fruit's low glycemic index is able to help the body's metabolism burn fat.</p> <p><span style='color: red;'>Grapefruit seed extract (GSE)</span> has been shown to have strong antimicrobial properties against fungi. It is also believed to have antimicrobial properties for bacteria, however there are no known studies that demonstrate its efficacy. Additionally, although GSE is promoted as a highly effective plant-based preservative by some natural personal care manufacturers, studies have shown that the apparent antimicrobial activity associated with GSE preparations is merely due to contamination with synthetic preservatives.</p> <p>There is a popular myth that grapefruits contain high amounts of spermidine, a simple polyamine that may be related to aging. The myth probably relies on the confusion between spermidine and putrescine. While citrus fruits show high amounts of putrescine, they contain very little spermidine.</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 5:
+//                        anim.setBackgroundResource(R.drawable.wheat_germ);
+//                        heading.setText("Wheat-Germ");
+//                        header.setText("Wheat-Germ");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Wheat-Germ?</h3> <p>Wheat germ or wheatgerm is a concentrated source of several essential nutrients including <span style='color: red;'>Vitamin E, folate (folic acid), phosphorus, thiamin, zinc, and magnesium</span>, as well as essential fatty acids and fatty alcohols. It is a good source of fiber. White bread is made using flour that has had the germ and bran removed.</p> <p>Wheat germ can be added to protein shakes, casseroles, muffins, pancakes, cereals, yogurt, smoothies, cookies, and other goods. Wheat germ can become rancid if not properly stored in a refrigerator or freezer, and away from sunlight. Some manufacturers prevent rancidity by storing wheat germ in vacuum sealed glass containers.</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 6:
+//                        anim.setBackgroundResource(R.drawable.tea);
+//                        heading.setText("Tea");
+//                        header.setText("Tea");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Tea?</h3> <p>Black and green teas contain no essential nutrients in significant content, with the exception of the <span style='color: red;'>dietary mineral, manganese</span> at 0.5 mg per cup or 26% of the Daily Value. Tea leaves contain diverse polyphenols, including <span style='color: red;'>flavonoids, epigallocatechin gallate (commonly noted as EGCG)</span> and other catechins.</p> <p>It has been suggested that green and black tea may protect against cancer or other diseases such as obesity or <span style='color: red;'>Alzheimer's disease</span>, but the compounds found in green tea have not been adequately demonstrated to have any effect on human diseases</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 7:
+//                        anim.setBackgroundResource(R.drawable.sweetpotato);
+//                        heading.setText("Sweet Potato");
+//                        header.setText("Sweet Potato");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Sweet Potato?</h3> <p>Besides simple starches, raw sweet potatoes are rich in complex <span style='color: red;'>carbohydrates, dietary fiber and beta-carotene (a provitamin A carotenoid)</span>, while having moderate contents of other micronutrients, including <span style='color: red;'>vitamin B5, vitamin B6, manganese and potassium</span>. When cooked by baking, small variable changes in micronutrient content occur to include a higher content of vitamin C at 24% of the Daily Value per 100 g serving (right table), as well as an increase in polyphenol levels.</p> <p>The Center for Science in the Public Interest has compared the nutritional value of sweet potatoes to other foods. Considering fiber content, complex carbohydrates, protein, vitamin A and potassium, the sweet potato ranked highest in nutritional value.</p> <p>Sweet potato varieties with dark orange flesh have more beta carotene than those with light-colored flesh, and their increased cultivation is being encouraged in Africa, where vitamin A deficiency is a serious health problem. A 2012 study of 10,000 households in Uganda found that 50% of children who ate normal sweet potatoes suffered from vitamin A deficiency compared with only 10% of those on the high beta carotene variety.</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 8:
+//                        anim.setBackgroundResource(R.drawable.mushrooms);
+//                        heading.setText("Mushrooms");
+//                        header.setText("Mushrooms");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Mushroooms?</h3> <p>Mushrooms are a low-calorie food eaten cooked, raw or as a garnish to a meal. In a 100 g (3.5 ounce) serving, mushrooms are an excellent source (higher than 20% of the Daily Value, DV) of <span style='color: red;'>B vitamins</span>, such as riboflavin, niacin and pantothenic acid, an excellent source of the <span style='color: red;'>essential minerals</span>, selenium (37% DV) and copper (25% DV), and a good source (10-19% DV) of phosphorus and potassium. Fat, carbohydrate and calorie content are low, with absence of vitamin C and sodium. There are 27 calories in a typical serving of fresh mushrooms.</p> <p>When exposed to <span style='color: red;'>ultraviolet (UV)</span> light even after harvesting, natural ergosterols in mushrooms produce vitamin D2, a process now used to supply fresh vitamin D mushrooms for the functional food grocery market.</p> <p>In a comprehensive safety assessment of producing vitamin D in fresh mushrooms, researchers showed that artificial UV light technologies were equally effective for vitamin D production as in mushrooms exposed to natural sunlight, and that UV light has a long record of safe use for production of vitamin D in food. Mushrooms treated with UV light or exposed to sunlight are the only whole food vegetable source of vitamin D.</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
+//                    case 9:
+//                        anim.setBackgroundResource(R.drawable.low_fat_yogurt);
+//                        heading.setText("Low-Fat Yogurt");
+//                        header.setText("Low-Fat Yogurt");
+//
+//                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Low-Fat Yogurt?</h3> <p>Yogurt is nutritionally rich in <span style='color: red;'>protein, calcium, vitamin D, riboflavin, vitamin B6 and vitamin B12</span>. It has nutritional benefits beyond those of milk. Lactose-intolerant individuals may tolerate yogurt better than other dairy products due to the conversion of lactose to the sugars glucose and galactose, and due to the fermentation of lactose to lactic acid carried out by the bacteria present in the yogurt. Yogurt contains varying amounts of fat. There is non-fat (0% fat), low-fat (usually 2% fat) and plain or whole milk yogurt (4% fat).</p> <p>Yogurt is a valuable health food for both <span style='color: red;'>infants and elderly persons</span>. For children, it is a balanced source of protein, fats, carbohydrates, and minerals. For senior citizens, who frequently have more sensitive colons or who no longer produce much lactase, yogurt is also a valuable food. Elderly intestines showed declining levels of bifidus bacteria, which allow the growth of toxin-producing and, perhaps, cancer-causing bacteria. Yogurt consumption may help prevent osteoporosis. </p> <p>As of 2013, there is moderate-quality evidence to support the idea that consumption of dairy products, including yogurt, may reduce the risk of <span style='color: red;'>high blood pressure</span>. However, the precise mechanism for this effect is not fully understood. Yogurt with active cultures helps the gut,[vague] and may help one feel fuller.</p>";
+//
+//                        description.setBackgroundColor(0x00000000);
+//
+//                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
+//                        break;
 
-                        htmlText = "<style> html { color: #FFFFFF; }</style> <h3>Why Broccoli</h3> <p>Broccoli has more <span style='color: red;'>Vitamin C </span>than an orange and contains high amounts of antioxidants that will help to repair your muscles and bulk up your immune system. It also contains <span style='color: red;'>phyto-chemicals</span> which have anti-estrogen properties that help lower estrogen levels, increase testosterone and help fight off body fat storage.</p> <p>Broccoli is high in vitamin C and dietary fiber. It also contains multiple <span style='color: red;'>nutrients with potent anti-cancer properties</span>, such as di-indolylmethane and small amounts of selenium. A single serving provides more than 30 mg of vitamin C and a half-cup provides 52 mg of vitamin C.[10] The 3,3'-Diindolylmethane found in broccoli is a potent modulator of the innate immune response system with anti-viral, anti-bacterial and anti-cancer activity. Broccoli also contains the compound glucora-phanin, which can be processed into an anti-cancer compound sulfo-raphane, though the anti-cancer benefits of broccoli are greatly reduced if the vegetable is boiled. Broccoli is also an excellent source of indole-3-carbinol, a chemical which boosts <span style='color: red;'>DNA repair</span> in cells and appears to block the growth of cancer cells.</p> <h3>Weight Reduction</h3> <p>Boiling broccoli reduces the levels of suspected <span style='color: red;'>anti-carcinogenic compounds</span>, such as sulfo-raphane, with losses of 20�30% after five minutes, 40�50% after ten minutes, and 77% after thirty minutes., However, other preparation methods such as steaming, microwaving, and stir frying had no significant effect on the compounds.</p> <p>Broccoli has the highest levels of carotenoids in the brassica family. It is particularly rich in lutein and also provides a modest amount of beta-carotene.</p> ";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 2:
-                        anim.setBackgroundResource(R.drawable.eggs);
-                        heading.setText("Eggs");
-                        header.setText("Eggs");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Eggs</h3> <p>These quick and easy treats are staples to the any fitness meal regimen. They are loaded with approximately 5 to 6 grams of protein at the very low cost of only 60 calories per medium-sized egg. It's also important to note that eggs are high in <span style='color: red;'>BCAAs</span>, which aids in muscular growth and development</p> <p>With 6 grams of the highest quality protein and 14 key nutrients, eggs provide the energy needed to keep you going. They are a natural choice for a healthy, active lifestyle.</p> <p>Eggs are one of the few foods considered to be a complete protein, because they contain all <span style='color: red;'>9 essential amino acids</span>. Amino acids are considered the 'building blocks for the body' because they help form protein.</p> <p>In addition to giving you energy, your body uses the protein found in eggs to build and repair body tissue and cells, grow strong hair and nails, build and maintain healthy muscles, help fight infections, help keep your body fluids in balance</p> ";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-
-                        break;
-                    case 3:
-                        anim.setBackgroundResource(R.drawable.almonds);
-                        heading.setText("Almonds");
-                        header.setText("Almonds");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Almonds</h3> <p>The almond is a nutritionally dense food and is a rich source of <span style='color: red;'>vitamin E</span>, containing 26 mg per 100 g. They are also rich in <span style='color: red;'>dietary fiber, B vitamins, essential minerals such as magnesium, copper, manganese, calcium, and potassium as well as monounsaturated fats and polyunsaturated fats</span>, fats which potentially may lower LDL cholesterol. Typical of nuts and seeds, almonds also contain phytosterols such as Beta-sitosterol, stigmasterol, campesterol, sitostanol, and campestanol, which have been associated with cholesterol-lowering properties.</p> <p>Preliminary research associates consumption of almonds with elevated blood levels of high density lipoproteins and lower low density lipoproteins.</p> <p>Almonds may cause allergy or intolerance. Cross-reactivity is common with peach allergens (lipid transfer proteins) and tree nut allergens. Symptoms range from local signs and symptoms (e.g., oral allergy syndrome, contact urticaria) to systemic signs and symptoms including anaphylaxis (e.g., urticaria, angioedema, gastrointestinal and respiratory symptoms).</p> <p>During the digestion process in humans, almond flour may be fermented into short-chain <span style='color: red;'>fatty acids</span>, most notably butyrate which is a substrate for cells lining the large intestine.</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 4:
-                        anim.setBackgroundResource(R.drawable.grapefruit);
-                        heading.setText("Grapefruit");
-                        header.setText("Grapefruit");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Grapefruit?</h3> <p>Grapefruit is an excellent source of many <span style='color: red;'>nutrients and phytochemicals</span> that contribute to a healthy diet. Grapefruit is a good source of <span style='color: red;'>vitamin C</span>, contains the <span style='color: red;'>fiber pectin</span>, and the pink and red hues contain the beneficial <span style='color: red;'>antioxidant lycopene</span>. Studies have shown grapefruit helps lower cholesterol,] and there is evidence that the seeds have antioxidant properties, Grapefruit forms a core part of the 'grapefruit diet', the theory being that the fruit's low glycemic index is able to help the body's metabolism burn fat.</p> <p><span style='color: red;'>Grapefruit seed extract (GSE)</span> has been shown to have strong antimicrobial properties against fungi. It is also believed to have antimicrobial properties for bacteria, however there are no known studies that demonstrate its efficacy. Additionally, although GSE is promoted as a highly effective plant-based preservative by some natural personal care manufacturers, studies have shown that the apparent antimicrobial activity associated with GSE preparations is merely due to contamination with synthetic preservatives.</p> <p>There is a popular myth that grapefruits contain high amounts of spermidine, a simple polyamine that may be related to aging. The myth probably relies on the confusion between spermidine and putrescine. While citrus fruits show high amounts of putrescine, they contain very little spermidine.</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 5:
-                        anim.setBackgroundResource(R.drawable.wheat_germ);
-                        heading.setText("Wheat-Germ");
-                        header.setText("Wheat-Germ");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Wheat-Germ?</h3> <p>Wheat germ or wheatgerm is a concentrated source of several essential nutrients including <span style='color: red;'>Vitamin E, folate (folic acid), phosphorus, thiamin, zinc, and magnesium</span>, as well as essential fatty acids and fatty alcohols. It is a good source of fiber. White bread is made using flour that has had the germ and bran removed.</p> <p>Wheat germ can be added to protein shakes, casseroles, muffins, pancakes, cereals, yogurt, smoothies, cookies, and other goods. Wheat germ can become rancid if not properly stored in a refrigerator or freezer, and away from sunlight. Some manufacturers prevent rancidity by storing wheat germ in vacuum sealed glass containers.</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 6:
-                        anim.setBackgroundResource(R.drawable.tea);
-                        heading.setText("Tea");
-                        header.setText("Tea");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Tea?</h3> <p>Black and green teas contain no essential nutrients in significant content, with the exception of the <span style='color: red;'>dietary mineral, manganese</span> at 0.5 mg per cup or 26% of the Daily Value. Tea leaves contain diverse polyphenols, including <span style='color: red;'>flavonoids, epigallocatechin gallate (commonly noted as EGCG)</span> and other catechins.</p> <p>It has been suggested that green and black tea may protect against cancer or other diseases such as obesity or <span style='color: red;'>Alzheimer's disease</span>, but the compounds found in green tea have not been adequately demonstrated to have any effect on human diseases</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 7:
-                        anim.setBackgroundResource(R.drawable.sweetpotato);
-                        heading.setText("Sweet Potato");
-                        header.setText("Sweet Potato");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Sweet Potato?</h3> <p>Besides simple starches, raw sweet potatoes are rich in complex <span style='color: red;'>carbohydrates, dietary fiber and beta-carotene (a provitamin A carotenoid)</span>, while having moderate contents of other micronutrients, including <span style='color: red;'>vitamin B5, vitamin B6, manganese and potassium</span>. When cooked by baking, small variable changes in micronutrient content occur to include a higher content of vitamin C at 24% of the Daily Value per 100 g serving (right table), as well as an increase in polyphenol levels.</p> <p>The Center for Science in the Public Interest has compared the nutritional value of sweet potatoes to other foods. Considering fiber content, complex carbohydrates, protein, vitamin A and potassium, the sweet potato ranked highest in nutritional value.</p> <p>Sweet potato varieties with dark orange flesh have more beta carotene than those with light-colored flesh, and their increased cultivation is being encouraged in Africa, where vitamin A deficiency is a serious health problem. A 2012 study of 10,000 households in Uganda found that 50% of children who ate normal sweet potatoes suffered from vitamin A deficiency compared with only 10% of those on the high beta carotene variety.</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 8:
-                        anim.setBackgroundResource(R.drawable.mushrooms);
-                        heading.setText("Mushrooms");
-                        header.setText("Mushrooms");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Mushroooms?</h3> <p>Mushrooms are a low-calorie food eaten cooked, raw or as a garnish to a meal. In a 100 g (3.5 ounce) serving, mushrooms are an excellent source (higher than 20% of the Daily Value, DV) of <span style='color: red;'>B vitamins</span>, such as riboflavin, niacin and pantothenic acid, an excellent source of the <span style='color: red;'>essential minerals</span>, selenium (37% DV) and copper (25% DV), and a good source (10-19% DV) of phosphorus and potassium. Fat, carbohydrate and calorie content are low, with absence of vitamin C and sodium. There are 27 calories in a typical serving of fresh mushrooms.</p> <p>When exposed to <span style='color: red;'>ultraviolet (UV)</span> light even after harvesting, natural ergosterols in mushrooms produce vitamin D2, a process now used to supply fresh vitamin D mushrooms for the functional food grocery market.</p> <p>In a comprehensive safety assessment of producing vitamin D in fresh mushrooms, researchers showed that artificial UV light technologies were equally effective for vitamin D production as in mushrooms exposed to natural sunlight, and that UV light has a long record of safe use for production of vitamin D in food. Mushrooms treated with UV light or exposed to sunlight are the only whole food vegetable source of vitamin D.</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-                    case 9:
-                        anim.setBackgroundResource(R.drawable.low_fat_yogurt);
-                        heading.setText("Low-Fat Yogurt");
-                        header.setText("Low-Fat Yogurt");
-
-                        htmlText = "<style> html { color: #FFFFFF; } </style> <h3>Why Low-Fat Yogurt?</h3> <p>Yogurt is nutritionally rich in <span style='color: red;'>protein, calcium, vitamin D, riboflavin, vitamin B6 and vitamin B12</span>. It has nutritional benefits beyond those of milk. Lactose-intolerant individuals may tolerate yogurt better than other dairy products due to the conversion of lactose to the sugars glucose and galactose, and due to the fermentation of lactose to lactic acid carried out by the bacteria present in the yogurt. Yogurt contains varying amounts of fat. There is non-fat (0% fat), low-fat (usually 2% fat) and plain or whole milk yogurt (4% fat).</p> <p>Yogurt is a valuable health food for both <span style='color: red;'>infants and elderly persons</span>. For children, it is a balanced source of protein, fats, carbohydrates, and minerals. For senior citizens, who frequently have more sensitive colons or who no longer produce much lactase, yogurt is also a valuable food. Elderly intestines showed declining levels of bifidus bacteria, which allow the growth of toxin-producing and, perhaps, cancer-causing bacteria. Yogurt consumption may help prevent osteoporosis. </p> <p>As of 2013, there is moderate-quality evidence to support the idea that consumption of dairy products, including yogurt, may reduce the risk of <span style='color: red;'>high blood pressure</span>. However, the precise mechanism for this effect is not fully understood. Yogurt with active cultures helps the gut,[vague] and may help one feel fuller.</p>";
-
-                        description.setBackgroundColor(0x00000000);
-
-                        description.loadDataWithBaseURL("", htmlText, mimeType, encoding, "");
-                        break;
-
-                    default:
-                        break;
-                }
+//                    default:
+//                        break;
+//                }
             default:
                 break;
         }

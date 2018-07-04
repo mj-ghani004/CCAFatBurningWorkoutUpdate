@@ -13,8 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.cca.fat.burn.workout.DescriptionActivity;
-import com.cca.fat.burn.workout.ExerciseList;
-import com.cca.fat.burn.workout.FoodDescription;
 import com.cca.fat.burn.workout.R;
 
 import java.util.ArrayList;

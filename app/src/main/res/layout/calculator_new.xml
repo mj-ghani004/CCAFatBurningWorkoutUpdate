@@ -4,7 +4,6 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/calculatorbg"
     >
 
     <!--<include-->
@@ -13,6 +12,12 @@
 
     <!--/>-->
 
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        />
 
     <ImageView
         android:id="@+id/imageView_calculator_logo"
@@ -63,7 +68,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="@dimen/margin_8"
-        android:text="My Height is" />
+        android:text="@string/label_my_height_is" />
 
     <Spinner
         android:id="@+id/spinnerCalculator_HeightFeet"
@@ -181,11 +186,12 @@
         android:inputType="number"
         android:maxLength="3"
         android:padding="@dimen/margin_8"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:hint="18 eg"/>
 
 
     <TextView
-        android:id="@+id/weightText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/ageText"
@@ -210,6 +216,7 @@
         android:layout_marginLeft="@dimen/margin_32"
         android:layout_marginRight="@dimen/margin_8"
         android:gravity="start"
+        android:hint="65 eg "
 
 
 
@@ -259,7 +266,7 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:lb_btnColor="@color/colorPrimaryDark"
+        app:lb_btnColor="@color/colorPrimary"
 
         app:lb_btnText="@string/label_submit"
 

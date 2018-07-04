@@ -16,8 +16,6 @@ import com.cca.fat.burn.workout.R;
 
 import java.util.ArrayList;
 
-import Utils.Constants;
-
 import static com.cca.fat.burn.workout.FoodActivity.PREFS_PRIVATE;
 
 public class ExerciseAdapter extends RecyclerView.Adapter<ExerciseAdapter.ViewHolder> {
